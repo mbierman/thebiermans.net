@@ -1,0 +1,72 @@
+html {
+	background:#001653 ;	
+}
+
+#header {
+  display:block;
+	background-color: #eeeeee !important;
+	padding-bottom:0px;
+	position:relative;
+}
+
+ h1#Name  {
+	font-size: 40px !important;
+	letter-spacing:2px;
+	font-weight:900;
+}
+.SubAchievement       {
+	color: navy;
+	font-size: 110%;
+	text-indent: 3%;
+	padding-bottom: 0%;
+}
+body   {
+	padding-bottom:0px;
+	scrollbar-arrow-color: #FFCC00 !important;
+	scrollbar-base-color: #123361 !important;
+}
+.Tenure      {
+	/* color: #999966; */
+	font-size:  8pt;
+	font-weight: lighter;
+	background-color: #ffffff;
+	text-align: right;
+	float: none;
+	position: absolute;
+	right: 30px;
+	width: auto;
+	display: table-column-group;
+}
+.callme {
+	position: absolute;
+	margin:0px 0px;	
+	padding:0px 0px;
+	top:4px;
+	right: 4px;
+}
+#header  a{
+  color:black;
+  padding: 20px 0 0 30px;
+  text-shadow: 2px 2px 2px #000;
+  font-style: normal;
+  font-weight: 700;
+  color: #6F8696;
+}
+div#quote {
+/*	border-top: #001653 double 4px;
+	border-bottom: #001653 double 4px; */
+	background: #EFEFEF;
+	border: #3F7CAB solid 1px;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+	}
+.quoteTitle {
+	font-family: 'Philosopher', serif;
+	letter-spacing:2px;
+	color:#01245C;
+	font-weight:900;
+	height:20px;
+}

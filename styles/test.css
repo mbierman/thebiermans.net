@@ -1,0 +1,18 @@
+/* CSS Document */
+
+body {
+	background:#045802;
+	color:white;
+	font-family:Verdana, Geneva, sans-serif;
+}
+button {
+	border:4px solid #000;
+	border-radius: 15px;
+	background-color:#000;
+	background-image:-webkit-gradient(linear, 0% 1%, 0% 95%, from(rgba(255,255,255,0.9)), to(rgba(64,64,64,0.9)), color-stop(.8, rgba(64,64,64,0.25)), color-stop(.25, rgba(32,32,32,0.5)));
+	color:white;
+}
+.label {
+	font-weight:900;
+	padding-left:20px;
+}
