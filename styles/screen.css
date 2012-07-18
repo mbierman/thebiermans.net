@@ -275,13 +275,14 @@ header h2, header p {
 	color: white;
 	text-shadow: black 2px 2px 2px;
 }
-.delicous, .ad {
-	padding: 2px 0px 2px 0px;
+.delicious, .ad {
+	padding: 2px 0px 10px 0px;
 	margin: 20px 0px 20px 0px;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align:center;
+
 }
 .right ul li, .right ul {
 	list-style:none;
@@ -410,16 +411,16 @@ ul#navmenu li:hover ul, ul#navmenu ul li:hover ul, ul#navmenu ul ul li:hover ul,
 	background:#ECECEC !important;
 }
 .simple_overlay {
-	/* must be initially hidden */ 
+	/* must be initially hidden */
     display:none;
-	/* place overlay on top of other elements */ 
+	/* place overlay on top of other elements */
     z-index:10000;
-	/* styling */ 
+	/* styling */
     background:#333;
 	width:600px;
 	min-height:300px;
 	border:1px solid #666;
-	/* CSS3 styling for latest browsers */ 
+	/* CSS3 styling for latest browsers */
 	-moz-box-shadow:0 0 90px 5px #000;   /* Firefox */
 	-webkit-box-shadow: 0 0 90px #000;  /* WebKit */
 	box-shadow: 0 0 90px #000;          /* Opera */
@@ -429,7 +430,7 @@ ul#navmenu li:hover ul, ul#navmenu ul li:hover ul, ul#navmenu ul ul li:hover ul,
 	border: 1px solid #666;
 	padding: 10px;
 }
-/* close button positioned on upper right corner */ 
+/* close button positioned on upper right corner */
 .simple_overlay .close {
 	background-image:url(../images/close.png);
 	position:absolute;
@@ -542,7 +543,7 @@ footer {
 	border-bottom-left-radius: 10px; /* Opera */
 	border-bottom-right-radius: 10px; /* Opera */
 }
-/* add rounded corners to nav menu ul#navmenu  */ 
+/* add rounded corners to nav menu ul#navmenu  */
 
 img[src="images/linkedin.gif"] {
 	vertical-align: bottom;
@@ -556,4 +557,8 @@ img[src="images/linkedin.gif"] {
 }
 #nav {
 	background:#FF0000;
+}
+
+div.twtr-widget {
+text-shadow:none;
 }
