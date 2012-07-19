@@ -147,8 +147,11 @@
     <div class="span4" >
         <h1 id="Name"> <a id="top"></a>Michael Bierman</h1>
         <p class="Contacts">
-        <span rel="#contact" class="app"> <a data-toggle="modal" href="#gVoice" >Call</a> | </span> <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#101;&#115;&#117;&#109;&#101;&#64;&#116;&#104;&#101;&#98;&#105;&#101;&#114;&#109;&#97;&#110;&#115;&#46;&#110;&#101;&#116;'>&#101;&#109;&#97;&#105;&#108;</a>
-        <noscript>resume <i>at</i> thebiermans.net</noscript> | Resume:&#160;thebiermans.net&#160;| Santa&#160;Clara,&#160;California</p>
+        <script>
+      document.write("<span rel='#contact' class='app'>   <a data-toggle='modal' href='#gVoice' >Call</a> | <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#101;&#115;&#117;&#109;&#101;&#64;&#116;&#104;&#101;&#98;&#105;&#101;&#114;&#109;&#97;&#110;&#115;&#46;&#110;&#101;&#116;'>&#101;&#109;&#97;&#105;&#108;</a>");
+        </script>
+        <noscript><span class="label label-important">Important: Enable JavaScript in your browser to call Michael</span><br>
+        resume&nbsp;<i>at</i>&nbsp;thebiermans.net</noscript> | Resume:&#160;thebiermans.net&nbsp;| Santa&nbsp;Clara, California</p>
      </div> <!-- end of name span4 -->
 
 
@@ -167,7 +170,7 @@
 	          </li>
 	          <li><a href="Michael%20Bierman%20Resume.docx" onclick="javascript:pageTracker._trackPageview('/downloads/DOC'); ">Word</a>
 	          </li>
-	          <li><a href="Michael%20Bierman%20Resume.txt" onclick="javascript:pageTracker._trackPageview('/downloads/TXT'); "> Text</a>
+	          <li><a href="Michael%20Bierman%20Resume.txt" onclick="javascript:pageTracker._trackPageview('/downloads/TXT'); ">text</a>
 	          </li>
           </ul>
        </div>  <!-- end of button -->
@@ -204,11 +207,12 @@
 <p class="leftP">Michael Bierman was most recently Principal Product Manager for Developer Tools at <a href="http://apigee.com/">Apigee</a> which are defining the rapidly growing "api-economy". Prior to apigee, Bierman worked on products for mobile app developers at Nokia. He has many years of experience in native, embedded, and web software development tools and web technologies. He was the Senior Product Manager for Scalable Vector Graphics (SVG) at Adobe where he launched <a href="http://www.w3c.org/graphics/svg" title="Scalable Vector Graphics" target="_blank">SVG</a> and served as Senior Product Manager for the <a href="http://www.adobe.com/svg/viewer/install/main.html" target="_blank">SVG Viewer</a> and guided SVG authoring strategies in Adobe products. Before joining Adobe, Bierman was with Java marketing team at <a href="http://sun.com/" target="_blank">Sun Microsystems</a>, and spent two years as a Product Manager at Microtec/Mentor Graphics working on compilers for embedded systems. Bierman was also Senior Product Manager at <a href="http://www.ebay.com/">eBay</a>.</p>
 
 <!-- Twitter feed -->
-<div id="twitterFeed">
-<h1>Twitter feed</h1>
-<div class="well">
+
         <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+
 <script>
+ document.write("<div id='twitterFeed'><h1>Twitter feed</h1><div class='well'>");
+
 new TWTR.Widget({
   version: 2,
   type: 'profile',
@@ -235,6 +239,10 @@ new TWTR.Widget({
   }
 }).render().setUser('mbierm').start();
 </script>
+<noscript>
+    <p class="label label-info">Michael's Twitter feed would show up here if your browser supported JavaScript.</p>
+<noscript>
+
 </div>
 </div>
 
