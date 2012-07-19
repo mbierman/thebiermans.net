@@ -1,9 +1,3 @@
-.alert.alert-error {
-    -webkit-box-shadow: 6px 6px 10px 1px @grayLight;
-    box-shadow: 6px 6px 10px 1px @grayLight;
-    width:80%;
-}
-
 h1.Section {
     @sansFontFamily;
 }
@@ -150,7 +144,14 @@ li[class="active"] {
 }
 
 
-@media screen and (max-width: 768px) {
+.alert.alert-error {
+    -webkit-box-shadow: 6px 6px 10px 1px @grayLight;
+    box-shadow: 6px 6px 10px 1px @grayLight;
+    width:80%;
+}
+
+
+@media screen and (max-width: 767px) {
 .hero-unit {
     width:87%;
     padding: 20px;
@@ -192,8 +193,8 @@ li[class="active"] {
 }
 }
 
-
-@media screen and (min-width: 481px) {
+// Bigger than iPhone!
+@media screen and (max-height: 800px) {
 //necessary because apparently Bootstrap support classes don't work as expected
 p .btn.btn-info.btn-small.visible.phone, p.linknav.backtotop.visible-phone {
     display:none !important;
@@ -204,21 +205,24 @@ p .btn.btn-info.btn-small.visible.phone, p.linknav.backtotop.visible-phone {
 .center  {
     display:block;
     margin-top:0px;
+
     }
 .btn.btn-primary.btn-large {
     display:block;
+
     }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
 img[alt~="QR"] {
    width: 124px;
    height: 124px;
     }
 }
 
+// iPhone size: smallen picture
 @media screen and (max-width: 480px) {
-    .btn {
+.btn.btn-primary.btn-large {
         .btn-small;
     }
     #biopic {
