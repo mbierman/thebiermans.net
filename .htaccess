@@ -1,0 +1,64 @@
+# Additional MIME types not part of the standard set
+# on the web server
+#
+# The format of the definition is:
+#
+# AddType <mime-type> sufix
+#
+# A <mime-type> is always two items, separated
+# by a "/". For example:
+#
+#    AddType text/plain txt
+#
+# defines that a file with "txt" as the extension will
+# be sent as a MIME type of "text/plain". The line below
+# would be used to indicate that a file with a "js"
+# extension should be sent as a Javascript type.
+
+#AddType video/quicktime Mov
+#AddType image/svg+xml svg
+AddType image/svg+xml svgz
+#AddEncoding gzip svgz
+
+# Rewrite rules
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www.thebiermans.net$ [NC]
+RewriteRule ^(.*)$ http://www.thebiermans.net/$1 [L,R=301]
+
+# Error documents
+
+DirectoryIndex MichaelBiermanResume.htm index.htm index.html default.html
+
+ErrorDocument 403 /errors/403.htm
+ErrorDocument 404 /errors/404.htm
+
+DirectoryIndex MichaelBiermanResume.htm
+
+RedirectMatch permanent /index.htm http://thebiermans.net/index.html
+RedirectMatch permanent /index.htm$ http://thebiermans.net/MichaelBiermanResume.htm
+RedirectMatch permanent /index.html ./MichaelBiermanResume.htm
+RedirectMatch permanent /apigee http://apigee.com
+
+
+RedirectMatch permanent ^/directions.html$ http://thebiermans.net/directions.htm
+
+
+RedirectMatch permanent ^/map.html$ http://thebiermans.net/directions.htm
+
+# 2 DAYS
+<filesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=172800, public"
+</filesMatch>
+
+# 2 DAYS
+<filesMatch "\.(xml|txt)$">
+Header set Cache-Control "max-age=172800, public, must-revalidate"
+</filesMatch>
+
+# 2 HOURS
+<filesMatch "\.(html|htm)$">
+Header set Cache-Control "max-age=7200, public, must-revalidate"
+</filesMatch>
+
+Header set Cache-Control "public"
+Header set Expires "Thu, 15 Apr 2014 20:00:00 GMT"
