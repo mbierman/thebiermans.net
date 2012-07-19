@@ -2,7 +2,6 @@
 
 var quotes = [];
 
-
 // Begin quotes  //
 
 quotes.push("&ldquo;Do what you can, with what you have, where you are.&rdquo; <span class='quotesig'>~&nbsp;T&nbsp;R</span>");
@@ -44,7 +43,7 @@ quotes.push("&ldquo;80% of successful feature development is getting all roles t
 // Write the initial quote
 //alert ("there are " + quotes.length + " quotes");
 document.write(quotes[(Math.floor(Math.random() * quotes.length))]);
-console.log(quotes[(Math.floor(Math.random() * quotes.length))]);
+// console.log(quotes[(Math.floor(Math.random() * quotes.length))]);
 
 
 // Fading code from http://www.javascriptkit.com/dhtmltutors/fadingtext.shtml
@@ -53,27 +52,34 @@ console.log(quotes[(Math.floor(Math.random() * quotes.length))]);
 var hexinput = 255;   // Initial color value.
 // var inc=-1       //increment variable
 
-// Rotate the quote
-function changeText() {
-    "use strict";
-document.getElementById('quoter').innerHTML=(quotes[(Math.floor(Math.random() * quotes.length))]);
-}
 
-function fadingtext() {
+function fadeText() {
     "use strict";
     if (hexinput > 0) {
         hexinput -= 11;     // increase color value
-
         document.getElementById("quoteDiv").style.color = "rgb(" + hexinput + "," + hexinput + "," + hexinput + ")"; // Set color value.
-        setTimeout(fadingtext(), 65);
+        setTimeout("fadeText()", 40);
     } else {
         hexinput = 255;   //reset hex value
+    //  console.log("fadeText");
     }
 }
 
+// Rotate the quote
+function changeText() {
+    "use strict";
+// document.getElementById('quoter').innerHTML=(quotes[(Math.floor(Math.random() * quotes.length))]);
+	var SS = quotes[(Math.floor(Math.random() * quotes.length))];
+	//	console.log (SS);
+	// alert (SS);
+	//	console.log("call fade");
+	fadeText();
+	document.getElementById('quoter').innerHTML=(SS);
+}
 
-setInterval('changeText()', 9942);
-setInterval('fadingtext()', 9941);
+
+setInterval('changeText()', 9000);
+// setInterval('fadeText()', 9942);
 
 // Testing junk
 // setInterval("console.log('New text');", 9942);

@@ -122,17 +122,24 @@ footer {
     width:auto;
     height:auto;
     background:white;
-    -webkit-border-radius: 4px;
+    -webkit-border-radius: 8px;
 
 li {
-    border:1px lightgrey solid;
+    border-top:1px lightgrey solid;
+    border-left:1px lightgrey solid;
+    border-right:2px darkgrey solid;
+    border-bottom:2px darkgrey solid;
     float:none;
     text-align:center;
     -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
     margin-bottom:2px;
+    cursor:hand
+    color:green;
     }
 li[class="active"] {
-    border:0px solid black;
+    padding-left:2px;
     }
 }
 
@@ -166,7 +173,6 @@ li[class="active"] {
         width:110px;
         }
 
-
     .hero-unit {
         .center;
         margin:0px;
@@ -189,12 +195,11 @@ p .btn.btn-info.btn-small.visible.phone, p.linknav.backtotop.visible-phone {
     line-height:0px;
     }
 
-    .center  {
+.center  {
     display:block;
     margin-top:0px;
     }
-
-    .btn.btn-primary.btn-large {
+.btn.btn-primary.btn-large {
     display:block;
     }
 }
