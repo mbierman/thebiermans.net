@@ -47,7 +47,7 @@ EMPLOYMENT HISTORY
 
 Apigee Principal Product Manager, Developer Tools
 
-Lead cross-product initiatives like Single Sign-On (SSO) to consolidate eight unique user stores and experiences. Created developer tools such as the Apigee Console which enables a developer to make a successful api request in less than a minute by guiding them with a clear overview of all the api‘s methods and parameters, default values, alerts for required parameters, contextual help, and authentication. Consoles include a social component: allowing developers to share their API requests and responses with other developers and support engineers via facebook, twitter, email, or embedded in blog. Dev Connect is for API providers who need an api key management solution, analytics for themselves and their developer community, and an off-the-shelf developer community portal. Applied agile principals to achieve monthly release cycles that allowed for rapid innovation and predictability. 2011-2012
+Lead cross-product initiatives like Single Sign-On (SSO) to consolidate eight unique user stores and experiences. Created developer tools such as the Apigee Console which enables a developer to make a successful API request in less than a minute by guiding them with a clear overview of all the API‘s methods and parameters, default values, alerts for required parameters, contextual help, and authentication. Consoles include a social component: allowing developers to share their API requests and responses with other developers and support engineers via facebook, twitter, email, or embedded in blog. Dev Connect is for API providers who need an API key management solution, analytics for themselves and their developer community, and an off-the-shelf developer community portal. Applied agile principals to achieve monthly release cycles that allowed for rapid innovation and predictability. 2011-2012
 
 Nokia Lead Product Manager, Web Tools
 
@@ -71,7 +71,7 @@ Consulted for a number of companies on a variety of product management and marke
 
 Adobe Systems Senior Product Manager and Evangelist
 
-Managed the course of the Adobe SVG Viewer, of the Adobe SVG Viewer, a browser plug-in similar to Flash. As SVG Evangelist, influenced the Creative Suite-SVG authoring features and created a vibrant developer community. Scalable Vector Graphics (SVG) is the W3C ’s XML -based language for scriptable 2D vector graphics that enables data-driven graphics for for web, mobile and print, and is now supported natively in all popular web browsers. 1999-2001
+Managed the course of the Adobe SVG Viewer, of the Adobe SVG Viewer, a browser plug-in similar to Flash. As SVG Evangelist, influenced the Creative Suite-SVG authoring features and created a vibrant developer community. Scalable Vector Graphics (SVG) is the W3C ’s XML -based language for scriptable 2D vector graphics that enables data-driven graphics for web, mobile and print, and is now supported natively in all popular web browsers. 1999-2001
 
 Sun Microsystems Product Manager, Java Source Licensee Engineering
 
