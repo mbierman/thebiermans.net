@@ -70,6 +70,9 @@
               <li><a href="http://linkedin.com/in/michaelbierman" ><i class=" icon-linkedin-sign"></i> Linkedin profile </a></li>
               <li class="divider"></li>
             <li><a data-toggle="modal" href="#gVoice" ><i class="icon-phone"> </i> Call me via Google Voice</a></li>
+              <li class="divider"></li>
+                <li><a href="http://twitter.com/mbierm" ><i class=" icon-twitter"></i> Follow me on Twitter </a></li>
+
             </ul>
           </div> <!-- pull right -->
 
@@ -78,13 +81,14 @@
               <li class="active">
                   <a href="#" onclick="Evernote.doClip({styling:'full',providerName:'Resume Michael Bierman',contentId:'Summary',title:'Resume for Michael Bierman, Lead Product Manager',suggestTags:'resume, Product Manager',url:'http://thebiermans.net'}); return false;"><i class=" icon-paper-clip"></i>&nbsp;Clip to Evernote</a>
                   </li>
-                  <li class="" >
+                  <li>
 
                     <!-- Place this tag where you want the +1 button to render. -->
-                    <a href="#"><div class="g-plusone" data-size="medium" data-annotation="none" data-href="http://thebiermans.net"></div></a>
+                    <a href="#">
+                    <span class="g-plusone" data-size="medium" data-annotation="none" data-href="http://thebiermans.net"></span></a>
 
                     <!-- Place this tag after the last +1 button tag. -->
-                    <script type="text/javascript">
+                    <script>
                       (function() {
                         var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
                         po.src = 'https://apis.google.com/js/plusone.js';
@@ -199,7 +203,7 @@
 <nav>
 <div class="subnav visible-phone">
     <ul class="nav nav-pills">
-      <li class="active"><a href="#profile" data-toggle="tab" onclick="topMe(500)" h>Profile</a></li>
+      <li class="active"><a href="#profile" data-toggle="tab" onclick="topMe(500)">Profile</a></li>
       <li class=""><a href="#highlights" data-toggle="tab" onclick="topMe(600)">Highlights</a></li>
       <li class=""><a href="#employment" data-toggle="tab" onclick="topMe(630)">Employment</a></li>
       <li class=""><a href="#education" data-toggle="tab" onclick="topMe(670)">Education</a></li>
@@ -218,15 +222,16 @@
 
 <!-- fair warning for users who don't have JavaScript -->
 
+
 <noscript>
 <div class="alert alert-error">
-    <i type="button" class="close icon-remove" data-dismiss="alert"></i>
-            <p><strong><i class=" icon-exclamation-sign" style="font-size:25px;color:red"></i>&nbsp;Aw snap!</strong> This site really, really work at its best with JavaScript. But, you can download Michael&rsquo;s resume without it, if you like! If you come back with a browser that has JavaScript you can also call Michael with Google Voice!</p>
+    <i class="close icon-remove" data-dismiss="alert"></i>
+            <p><strong><i class="icon-exclamation-sign" style="font-size:25px;color:red"></i>&nbsp;Aw snap!</strong> This site really, really work at its best with JavaScript. But, you can download Michael&rsquo;s resume without it, if you like! If you come back with a browser that has JavaScript you can also call Michael with Google Voice!</p>
 
         <div class="btn-group">
-              <button class="btn"><a href="Michael%20Bierman%20Resume.pdf" rel="alternate" onclick="javascript: pageTracker._trackPageview('/downloads/PDF');">PDF</a></button>
-              <button class="btn"><a href="Michael%20Bierman%20Resume.docx" onclick="javascript:pageTracker._trackPageview('/downloads/DOC'); ">Word</a></button>
-              <button class="btn"><a href="Michael%20Bierman%20Resume.txt" onclick="javascript:pageTracker._trackPageview('/downloads/TXT'); ">text</a></button>
+              <span class="btn"><a href="Michael%20Bierman%20Resume.pdf" rel="alternate" onclick="javascript: pageTracker._trackPageview('/downloads/PDF');">PDF</a></span>
+            <span class="btn"><a href="Michael%20Bierman%20Resume.docx" onclick="javascript:pageTracker._trackPageview('/downloads/DOC'); ">Word</a></span>
+              <span class="btn"><a href="Michael%20Bierman%20Resume.txt" onclick="javascript:pageTracker._trackPageview('/downloads/TXT'); ">text</a></span>
         </div>
 </div>
 </noscript>
@@ -239,7 +244,7 @@
 
 <!-- Twitter feed -->
 
-        <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
 
 <script>
  document.write("<div id='twitterFeed'><h1>Twitter feed</h1><div class='well'>");
@@ -472,7 +477,7 @@ document.write('</div>');
 
 <noscript>
     <p> &copy; 2012&nbsp;&nbsp;Michael&nbsp;Bierman&nbsp;&nbsp;All rights Reserved.
-    <span><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/53042ns.gif" id="clicky" width="1" height="1" /></span></p>
+    <span><img alt="Clicky" src="http://in.getclicky.com/53042ns.gif" id="clicky" width="1" height="1" /></span></p>
 </noscript>
 
 <!-- End of Clicky tracking  jQuery scripts -->
@@ -524,6 +529,7 @@ document.write('</div>');
     });
     </script>
 
+
 <!-- Google Analytics -->
 <script>
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -545,11 +551,11 @@ document.write('</div>');
 <!-- Google Voice "call me" -->
 <div class="modal hide" id="gVoice">
 	<div class="model-header" style="padding:8px 20px;">
-		 <i type="button" class="close icon-remove" data-dismiss="modal"></i>
+		 <i class="close icon-remove" data-dismiss="modal"></i>
 		<h3>Contact Michael via Google Voice</h3>
   </div>
 	  <div class="modal-body">
-	<form method="post" class="form-inline" action="https://clients4.google.com/voice/embed/webButtonConnect" id="callME" >
+	<form method="post" class="form-inline" action="https://clients4.google.com/voice/embed/webButtonConnect" id="callME" target="_blank">
 		<input type="hidden" name="buttonId" value="55b27496f8169db162f049be9bbd960711e93a9c" />
 		<i class="icon-phone" style="font-size:40px;color:darkgrey;position:absolute; left:20px; bottom:30px;text-shadow: 5px 5px 10px #b0b0b0;
 		        filter: dropshadow(color=#b0b0b0, offx=5, offy=5);"></i>
@@ -562,7 +568,7 @@ document.write('</div>');
 
 			<div class="modal-footer" style="height:0px;">
 			        <button data-dismiss="modal" class="btn">Close</button>
-			        <button type="submit" class="btn btn-primary" target="_blank">Call me</button>
+			        <button type="submit" class="btn btn-primary">Call me</button>
 			</div>
     </form>  <!-- end of call me dialog -->
 
