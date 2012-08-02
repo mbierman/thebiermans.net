@@ -36,6 +36,7 @@ quotes.push("&ldquo;HTML5 is going to change everything. In HTML5, an ad is an a
 
 quotes.push("&ldquo;80% of successful feature development is getting all roles to agree on where the value is and aim their efforts at that value.&rdquo; <span class='quotesig'>~&nbsp;<a href='https://twitter.com/rjs/status/223804572869722113'>@rjs</a></span> ");
 
+quotes.push("&ldquo;When one door closes, andother opens; but we often look <i>so</i> long and <i>so</i> regretfully upon the closed door that we do not see the one which has opened for us.&rdquo; <span class='quotesig'>~&nbsp;Alexander Graham Bell </span>");
 
 //End quotes
 
