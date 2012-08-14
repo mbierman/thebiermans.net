@@ -36,7 +36,7 @@ quotes.push("&ldquo;HTML5 is going to change everything. In HTML5, an ad is an a
 
 quotes.push("&ldquo;80% of successful feature development is getting all roles to agree on where the value is and aim their efforts at that value.&rdquo; <span class='quotesig'>~&nbsp;<a href='https://twitter.com/rjs/status/223804572869722113'>@rjs</a></span> ");
 
-quotes.push("&ldquo;When one door closes, andother opens; but we often look <i>so</i> long and <i>so</i> regretfully upon the closed door that we do not see the one which has opened for us.&rdquo; <span class='quotesig'>~&nbsp;Alexander Graham Bell </span>");
+quotes.push("&ldquo;When one door closes, and other opens; but we often look <i>so</i> long and <i>so</i> regretfully upon the closed door that we do not see the one which has opened for us.&rdquo; <span class='quotesig'>~&nbsp;Alexander Graham Bell </span>");
 
 quotes.push("&ldquo;1. Question assumptions.</br> 2. When in doubt, improvise.</br> 3. When your path is blocked, pivot</br>4. Practice. Practice. Pratice.<span class='quotesig'>~&nbsp;<a href='http://feedproxy.google.com/~r/TedtalksHD/~3/90LKd-w_TYE/ken_goldberg_4_lessons_from_robots_about_being_human.html'>Ken Goldberg, TED talk<k/a></span>");
 
