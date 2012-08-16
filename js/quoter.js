@@ -40,6 +40,8 @@ quotes.push("&ldquo;When one door closes, and other opens; but we often look <i>
 
 quotes.push("&ldquo;1. Question assumptions.</br> 2. When in doubt, improvise.</br> 3. When your path is blocked, pivot</br>4. Practice. Practice. Pratice.<span class='quotesig'>~&nbsp;<a href='http://feedproxy.google.com/~r/TedtalksHD/~3/90LKd-w_TYE/ken_goldberg_4_lessons_from_robots_about_being_human.html'>Ken Goldberg, TED talk<k/a></span>");
 
+quotes.push("&ldquo;Our willingness to fail gives us the ability and opportunity to succeed where others may fear to tread.&rdquo;</br></br>&ldquo;I&rsquo;ve missed more than 9000 shots in my career. I&rsquo;ve lost almost 300 games. Twenty six times, I&rsquo;ve been trusted to take the game-winning shot and missed. I&rsquo;ve failed over and over and over again in my life. And that is why I succeed.&rdquo; <span class='quotesig'>~&nbsp;Michael Jordan</span>");
+
 
 //End quotes
 
