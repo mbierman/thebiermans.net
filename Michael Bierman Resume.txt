@@ -45,23 +45,28 @@ Evangelism
 
 EMPLOYMENT HISTORY
 
-Apigee Principal Product Manager, Developer Tools
+@WalmartLabs:   Principal Product Manager, Mobile Services
 
-Lead cross-product initiatives like Single Sign-On (SSO) to consolidate eight unique user stores and experiences. Created developer tools such as the Apigee Console which enables a developer to make a successful API request in less than a minute by guiding them with a clear overview of all the API‘s methods and parameters, default values, alerts for required parameters, contextual help, and authentication. Consoles include a social component: allowing developers to share their API requests and responses with other developers and support engineers via facebook, twitter, email, or embedded in blog. Dev Connect is for API providers who need an API key management solution, analytics for themselves and their developer community, and an off-the-shelf developer community portal. Applied agile principals to achieve monthly release cycles that allowed for rapid innovation and predictability. 2011-2012
+Walmart does eCommerce at incredible scale. Mobile Services enabled a dozen mobile applications across four platforms (Android, iPhone, iPad, and mWeb) and three properties (ASDA, Sam's Club, and Walmart). As the Product Manager for Mobile Services, I help create new APIs and orchestrate internal and 3rd party APIs to enable end-to-end mCommerce, including in-store and multi-channel features, which optimize for mobile clients by reducing number of calls and payload sizes, reduce client resource usage (battery, CPU, bandwidth etc.), and keep as much business logic out of the client code as possible for development and runtime efficiencies. Examples include Pharmacy, Checkout, payment and shipping enhancements, and holiday promotions. My team also has responsibility for Security, Operational Analytics, and Production Support.  2012 – Present
 
-Nokia Lead Product Manager, Web Tools
+Apigee:    Principal Product Manager, API Tools
 
-Managed Nokia’s first set of developer web tools starting from a blank slate. The Nokia Web SDK [video] included: Web SDK Simulator built with Qt WebKit; Nokia Designer, a rapid prototyping tool; Nokia Web Runtime plug-in for Eclipse, WRT extension for Adobe Dreamweaver and WRT plugin for Microsoft Visual Studio. These tools enabled the full life cycle of mobile application development, from concept and ideation to publishing. Challenges included aligning diverse and sometimes conflicting requirements and roadmaps for every device and most services in Nokia’s portfolio. An innovator in mobile web technology, Nokia was the first to ship a WebKit-based browser on mobile devices, beating Apple to market by two years. 2008-2011
+Lead cross-product initiatives like Single Sign-On to consolidate eight unique user stores and experiences. Created developer tools such as Console which enable a developer to make an API request in minutes by providing an overview of all the API‘s methods, parameters, default and required values, contextual help, and authentication. Consoles include a social component: allowing developers to share their API requests and responses with other developers and support engineers via Facebook, twitter or in blogs. Applied agile principals to achieve monthly release cycles that allowed for rapid innovation with predictable delivery.  2011 – 2012
+
+Nokia:   Lead Product Manager, Web Tools
+
+Managed the WRT developer toolchain from a blank slate. The Nokia Web SDK [video] included: Web SDK Simulator; Nokia Designer, a rapid prototyping tool; Nokia Web Runtime plug-in for Eclipse, WRT extension for Adobe Dreamweaver and WRT plugin for Microsoft Visual Studio. These enabled the full life cycle of mobile application development, from concept and ideation to publishing. Challenges included aligning diverse and sometimes conflicting requirements and roadmaps for the many devices and services in Nokia’s portfolio. An innovator in mobile web technology, Nokia was the first to ship a WebKit-based browser on mobile devices, beating Apple to market by two years.  2008 – 2011
+
 
 Product Management Consultant
 
 Provided guidance on how to move the product-line to the next level including product and process definition, requirements development and roadmaps. Recommended changes to product usability, accessibility, and development processes for Assist Guide Information Services and other companies. 2007-2008
 
-Habeas Senior Product Manager
+Habeas:    Senior Product Manager
 
 Conceived and launched new products that created a competitive advantage based on Adobe Flex, a Yahoo! Map mashup, and populated by a combination of in-house and third-party data (patent pending). Developed a platform for a new line of business focused on advertising. 2006-2007
 
-eBay Senior Product Manager, Internet Marketing & Community
+eBay:   Senior Product Manager, Internet Marketing & Community
 
 Launched new products, such as eBay Blogs and redesigned the Product Description pages, to enhance the eBay Community and maximize natural search traffic and decrease eBay’s paid search expenditure. 2005-2006
 
@@ -85,7 +90,7 @@ Globetrotter Software, A Macrovision Corporation Training/Technical Support
 
 Developed and delivered course materials, provided end user and developer support, and produced and edited end-user and developer manuals and marketing materials for Globetrotter’s license-management products for enterprise and software publishers. 1994-1995
 
-Sun Microsystems, SunPro Developer Tools
+Sun Microsystems,  SunPro:    Developer Tools
 
 Product Manager for FlexLM-based compiler licensing, served as the FrameMaker Guru and developed tools and scripts for document development for Sun's AnswerBook documentation, a display Postscript-based hypertext system; a precursor to the web and PDF and technical editor for developer documentation. 1990-1994
 
