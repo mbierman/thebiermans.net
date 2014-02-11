@@ -36,6 +36,8 @@ quotes.push("“When one door closes, and other opens; but we often look <i>so</
 quotes.push("“1. Question assumptions.</br> 2. When in doubt, improvise.</br> 3. When your path is blocked, pivot</br>4. Practice. Practice. Pratice.<span class='quotesig'>~ <a href='http://feedproxy.google.com/~r/TedtalksHD/~3/90LKd-w_TYE/ken_goldberg_4_lessons_from_robots_about_being_human.html'>Ken Goldberg, TED talk<k/a></span>");
 quotes.push("“Our willingness to fail gives us the ability and opportunity to succeed where others may fear to tread. I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. Twenty six times, I’ve been trusted to take the game-winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed.” <span class='quotesig'>~ Michael Jordan</span>");
 quotes.push("“If you're competitor-focused, you have to wait until there is a competitor doing something. Being customer-focused allows you to be more pioneering.” <span class='quotesig'>~ Jeff Bezos</span>");
+quotes.push("“It is amazing what you can accomplish if you do not care who gets the credit.” <span class='quotesig'>~ Harry S. Truman</span>");
+
 document.write(quotes[Math.floor(Math.random() * quotes.length)]);
 var hexinput = 255;
 setInterval("changeText()", 9e3)
