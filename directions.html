@@ -26,11 +26,12 @@
 -->
 	<link href="assets/fontawesome/css/font-awesome.css" rel="stylesheet" >
 	<style type="text/css">
-		body {
-			padding-top: 40px;
-			padding-bottom: 40px;
+		body,html {
+			padding: 0px;
 			background: white;
-			margin: 10px;
+			margin: 0px;
+			height: 100vh;
+			width: 100vw;
 		</style>
 	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet" >
 
@@ -48,13 +49,12 @@
 	
   </head>
   <body> 
-
-		<h1 style="padding-bottom:50px;padding-top:20px"> Directions to the Bierman&lsquo;s house</h1>
-    <div style="height:100%;width:100%;"> 
-	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3169.8809794858876!2d-121.942768!3d37.392646899999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc977239fcb8b%3A0x11459eb50722b1a2!2s507+Woodstock+Way!5e0!3m2!1sen!2sus!4v1393869225892" frameborder="0" style="border:0;height:80%;width:100%"></iframe>
-
-
-    </div><!-- Google Tracking code --><script type="text/javascript">
+   <div style="height:100vh; width:100vw; border: 0px solid"> 
+		<h1 style="padding-bottom:50px;"> Directions to the Bierman&lsquo;s house</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3169.8809794858876!2d-121.942768!3d37.392646899999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc977239fcb8b%3A0x11459eb50722b1a2!2s507+Woodstock+Way!5e0!3m2!1sen!2sus!4v1393869225892" frameborder="0" style="border:0px; height:100%; width:100%;"></iframe>
+ 
+	
+	<!-- Google Tracking code --><script type="text/javascript">
 //<![CDATA[
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -66,5 +66,6 @@
     pageTracker._trackPageview();
     //]]>
     </script><!-- End Google tracking code -->
-  </body>
+    </div>
+	 </body>
 </html>
