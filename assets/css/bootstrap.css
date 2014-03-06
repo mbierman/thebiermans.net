@@ -526,7 +526,7 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .quoteTitle{font-weight:900;padding-bottom:2px;color:white;text-shadow:black 2px 2px 2px;}
 }
 @sans FontFamily;.main{padding:0px 10px;margin:0px 10px;background:#ffffff;-moz-box-shadow:0 0 70px #FFF;-webkit-box-shadow:0px 0px 70px #FFF;box-shadow:0 0 10em white;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;margin-left:auto;margin-right:auto;}
-footer{color:black;margin:10px 0px;padding:15px 0px 10px 0px;border-top:#eeeeee solid 1px; font-size:10px;}
+footer{color:black;margin:10px 0px;padding:15px 0px 10px 0px;border-top:#eeeeee solid 1px;font-size:;}
 #clicky{float:right;width:0px;height:0px;}
 .Tenure{font-size:70%;color:#000000;font-weight:normal;padding-left:0px;float:right;}
 .Company{-webkit-margin-after:0px !important;color:black;font-size:100%;font-weight:700;padding:0px 0px 0px 0px;font-stretch:extra-expanded;text-align:left;display:inline;width:85%;height:auto;}
@@ -569,7 +569,7 @@ footer{color:black;margin:10px 0px;padding:15px 0px 10px 0px;border-top:#eeeeee 
 .h1{margin:5px 0px 20px 5px;text-align:left;}
 .full{display:block;top:0px;left:0px;height:100%;width:100%;background:white;position:absolute;}
 /* Shared styles */
-￿.drop-shadow{left:0px;position:relative;width:100%;height:80%;padding:1em;margin:0em 20px 4em 20px;background:#fff;-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;-moz-box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;display:block;margin-left:auto;margin-right:auto;}
+.drop-shadow{left:0px;position:relative;width:100%;height:100%;padding:1em;margin:0em 20px 4em 20px;background:#fff;-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;-moz-box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;display:block;margin-left:auto;margin-right:auto;}
 .drop-shadow:before,
 .drop-shadow:after{content:"";position:absolute;z-index:-2;}
 iframe{width:100%;height:100%;border:0;}
