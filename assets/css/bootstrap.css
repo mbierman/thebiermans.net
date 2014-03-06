@@ -526,7 +526,7 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .quoteTitle{font-weight:900;padding-bottom:2px;color:white;text-shadow:black 2px 2px 2px;}
 }
 @sans FontFamily;.main{padding:0px 10px;margin:0px 10px;background:#ffffff;-moz-box-shadow:0 0 70px #FFF;-webkit-box-shadow:0px 0px 70px #FFF;box-shadow:0 0 10em white;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;margin-left:auto;margin-right:auto;}
-footer{color:black;margin:10px 0px;padding:15px 0px 10px 0px;border-top:#eeeeee solid 1px;}
+footer{color:black;margin:10px 0px;padding:15px 0px 10px 0px;border-top:#eeeeee solid 1px; font-size:10px;}
 #clicky{float:right;width:0px;height:0px;}
 .Tenure{font-size:70%;color:#000000;font-weight:normal;padding-left:0px;float:right;}
 .Company{-webkit-margin-after:0px !important;color:black;font-size:100%;font-weight:700;padding:0px 0px 0px 0px;font-stretch:extra-expanded;text-align:left;display:inline;width:85%;height:auto;}
