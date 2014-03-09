@@ -2854,12 +2854,13 @@ jQuery.event = {
 		}
 		eventHandle = elemData.handle;
 		if ( !eventHandle ) {
-			elemData.handle = eventHandle = function( e ) {
+					elemData.handle = eventHandle = function( e ) {
 				// Discard the second event of a jQuery.event.trigger() and
 				// when an event is called after a page has unloaded
 				return typeof jQuery !== "undefined" && (!e || jQuery.event.triggered !== e.type) ?
 					jQuery.event.dispatch.apply( eventHandle.elem, arguments ) :
 					undefined;
+
 			};
 			// Add elem as a property of the handle fn to prevent a memory leak with IE non-native events
 			eventHandle.elem = elem;
@@ -3428,7 +3429,7 @@ jQuery.Event = function( src, props ) {
 
 		// Events bubbling up the document may have been marked as prevented
 		// by a handler lower down the tree; reflect the correct value.
-		this.isDefaultPrevented = ( src.defaultPrevented || src.returnValue === false ||
+		this.isDefaultPrevented = ( src.defaultPrevented || src.preventDefault === false ||
 			src.getPreventDefault && src.getPreventDefault() ) ? returnTrue : returnFalse;
 
 	// Event type

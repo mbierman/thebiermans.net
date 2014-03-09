@@ -37,7 +37,6 @@ DirectoryIndex MichaelBiermanResume.htm
 RedirectMatch permanent /index.htm http://thebiermans.net/index.html
 RedirectMatch permanent /index.htm$ http://thebiermans.net/MichaelBiermanResume.htm
 RedirectMatch permanent /index.html ./MichaelBiermanResume.htm
-RedirectMatch permanent /apigee http://apigee.com
 
 
 RedirectMatch permanent ^/directions.html$ http://thebiermans.net/directions.htm
