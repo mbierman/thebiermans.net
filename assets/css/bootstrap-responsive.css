@@ -133,7 +133,25 @@
   .carousel-caption {
     position: static;
   }
+  .center {
+	  display: block;
+  }
+  p.visible-phone {
+	  width:100% !important;
+  }
+ .btn-group {
+	 margin: 0px !important;
+	 padding: 0px !important;
+  }
+  .center {
+	  width: 150px !important;
+	  padding: 0px;
+  }
+  #biopic {
+	  float: none !important;
+  }
 }
+
 
 @media (max-width: 767px) {
   body {
@@ -196,6 +214,13 @@
     display: inline-block;
     width: auto;
   }
+  .btn-small {
+	  width: 90%;
+	  margin: 0px 20px;
+  }
+  .center {
+	  width: 400px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -212,7 +237,7 @@
     clear: both;
   }
   [class*="span"] {
-    float: left;
+/*    float: left; */
     margin-left: 20px;
   }
   .container,
@@ -233,7 +258,7 @@
     width: 538px;
   }
   .span8 {
-    width: 476px;
+    width: 550px;
   }
   .span7 {
     width: 414px;
@@ -248,7 +273,7 @@
     width: 228px;
   }
   .span3 {
-    width: 166px;
+    /* width: 166px; */
   }
   .span2 {
     width: 104px;
@@ -448,7 +473,7 @@
     clear: both;
   }
   [class*="span"] {
-    float: left;
+    float: middle ;
     margin-left: 30px;
   }
   .container,
@@ -484,7 +509,7 @@
     width: 370px;
   }
   .span3 {
-    width: 270px;
+    width: 370px;
   }
   .span2 {
     width: 170px;
@@ -676,6 +701,17 @@
   }
   .row-fluid .thumbnails {
     margin-left: 0;
+  }
+  #biopic {
+	  display: inline;
+	  float: right;
+  }
+  .center {
+	  text-align: right;
+	  display: inline;
+  }
+  .btn-group {
+	  padding-top: 60px;
   }
 }
 

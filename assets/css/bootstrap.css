@@ -531,7 +531,7 @@ footer{color:black;margin:10px 0px;padding:25px 0px 0px 15px;border-top:#eeeeee 
 .Tenure{font-size:70%;color:#000000;font-weight:normal;padding-left:0px;float:right;}
 .Company{-webkit-margin-after:0px !important;color:black;font-size:100%;font-weight:700;padding:0px 0px 0px 0px;font-stretch:extra-expanded;text-align:left;display:inline;width:85%;height:auto;}
 .Company a{text-decoration:none !important;color:black;}
-.Summary{margin-left:0px;padding-bottom:20px;display:block;text-align:left;}
+.Summary{margin-left:0px;display:block;text-align:left;}
 .JobTitle{color:gray;font-weight:700;font-size:100%;margin-left:0px;text-align:left;text-transform:capitalize;letter-spacing:0.5pt;display:block;}
 .ad{padding-top:20px;margin-left:auto;margin-right:auto;text-align:center;}
 .center{text-align:center;margin:0px auto;display:inline-block;}
@@ -596,3 +596,7 @@ iframe{width:100%;height:100%;border:0;}
 /* Rotated box */
 .rotated{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;-webkit-transform:rotate(-3deg);-moz-transform:rotate(-3deg);-ms-transform:rotate(-3deg);-o-transform:rotate(-3deg);transform:rotate(-3deg);}
 .rotated > :first-child:before{content:"";position:absolute;z-index:-1;top:0;bottom:0;left:0;right:0;background:#fff;-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;-moz-box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;}
+.job {padding-top:8px;}
+.SubAchievement {padding-top:18px;font-size:20px;}
+figure {margin:0px;}
+.btn-group{display: inline-block !important;}
