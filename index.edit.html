@@ -164,16 +164,21 @@
 
 											<div id="test" class="center" >
 												<figure class="swing">
-													<img src="images/michael_bierman.jpg" alt="Michael Bierman" id="biopic">
-												</figure>
-
+													<img src="images/michael_bierman.jpg" alt="Michael Bierman" id="biopic" class="img-rounded">
+												</figure>				
+												
+										 	 <a accesskey="d" id="download" type="button" class="btn btn-primary btn-large" data-toggle="modal" data-target="#myModalM"><i class="icon-download-alt icon-white"></i>&nbsp;Downloads</a> 
+											 										
+												<!--
+											
 												<div class="btn-group">
 													<a class="btn btn-primary btn-large" href="#" data-toggle="dropdown" accesskey="d"><i class="icon-download-alt icon-white"></i>&nbsp;Downloads</a>
-													<a class="btn btn-primary dropdown-toggle btn-large" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+													
 													<ul class="dropdown-menu">
-														<li><a href="Michael%20Bierman%20Resume.pdf" rel="alternate" onclick="javascript: pageTracker._trackPageview('/downloads/PDF');">PDF</a></li>
+														<li><a href="Michael%20Bierman%20Resume.pdf" rel="alternate" onclick="javascript: pageTracker._trackPageview('/downloads/PDF'); ">PDF</a></li>
 														<li><a href="Michael%20Bierman%20Resume.docx" onclick="javascript:pageTracker._trackPageview('/downloads/DOC'); ">Word</a></li>
 														<li><a href="Michael%20Bierman%20Resume.txt" onclick="javascript:pageTracker._trackPageview('/downloads/TXT'); ">text</a></li>
+														<li data-toggle="modal" data-target="#myModalM"><a href="">User Agreement</a></li>
 													</ul>
 												</div>  <!-- end of button -->
 											</div> <!-- end of center -->
@@ -181,6 +186,33 @@
 									</div> <!--end of  span3 pull-right  -->
 								</div>  <!-- end of row -->
 							</div>  <!-- end of Hero -->
+							
+							
+							<!-- Download Modal Not ready for use yet 	-->
+							<div class="modal fade" id="myModalM" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							        <h4 class="modal-title" id="myModalLabel">User Agreement</h4>
+							      </div>
+							      <div class="modal-body">
+  								<p>The resume&rsquo;s copyrights do not allow general distribution. But, you may use the resume within your
+  									organization to determine if there is a match. But, please, do not distribute it outside your company
+  									without permission. Please contact me for permission to submit. By downloading you agree to these terms.</p>								      
+							      </div>
+							      <div class="modal-footer">
+												<div class="btn-group">
+												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.pdf" rel="alternate" onclick="javascript: pageTracker._trackPageview('/downloads/PDF'); ">PDF</a></button>
+												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.docx" onclick="javascript:pageTracker._trackPageview('/downloads/DOC'); ">Microsoft Word</a></button>
+												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.txt" onclick="javascript:pageTracker._trackPageview('/downloads/TXT'); ">text</a></button>	
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+												</div>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						
 
 
 <!-- iPhone nav -->
@@ -450,14 +482,37 @@
 								// console.log  ('date is: ' + curr_date + '-' + m_names[curr_month] + '\ncurrent year is: '
 								// + curr_year + '\n' + 'current month is: ' + modDate + '\ndb is: ' + db + '\nindb1 is: ' + db[1] + '\ndb2 is: ' + db[2] + '\ndb3 is: ' + db[3] );
 
-								document.write("<p>&copy;&nbsp;" + curr_year + "&nbsp;&nbsp;Michael Bierman&nbsp;&nbsp;All rights Reserved. | last updated: " + db + "&nbsp;GMT<img alt='Web Analytics' id='clicky' src='http://static.getclicky.com/media/links/badge.gif' width='80' height='15' ><\/p> ");
+								document.write("<p data-toggle='modal' data-target='#myModal'>&copy;&nbsp;" + curr_year + "&nbsp;&nbsp;Michael Bierman&nbsp;&nbsp; All rights Reserved. <span style='text-decoration:underline'>User Agreement</span> | last updated: " + db + "&nbsp;GMT<img alt='Web Analytics' id='clicky' src='http://static.getclicky.com/media/links/badge.gif' width='80' height='15' ><\/p> ");
 								//]]>
 							</script>
 
+								<!-- Footer Modal -->
+								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								  <div class="modal-dialog">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								        <h4 class="modal-title" id="myModalLabel">User Agreement</h4>
+								      </div>
+								      <div class="modal-body">
+	  								<p>The resume&rsquo;s copyrights do not allow general distribution. But, you may use the resume within your
+	  									organization to determine if there is a match. But, please, do not distribute it outside your company
+	  									without permission. Please contact me for permission to submit.</p>								      
+								      </div>
+								      <div class="modal-footer">
+								        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		
+								      </div>
+								    </div>
+								  </div>
+								</div>
+								
+								
 							<noscript>
-								<p> &copy; 2012&nbsp;&nbsp;Michael&nbsp;Bierman&nbsp;&nbsp;All rights Reserved.
+								<p  data-toggle='modal' data-target='#myModal'> &copy; 2014&nbsp;&nbsp;Michael&nbsp;Bierman&nbsp;&nbsp; All rights Reserved. <span style='text-decoration:underline'>User Agreement</span>
 									<span><img alt="Clicky" src="http://in.getclicky.com/53042ns.gif" id="clicky" width="1" height="1" /></span></p>
 							</noscript>
+							
 
 <!-- End of Clicky tracking  jQuery scripts -->
 						</footer>
