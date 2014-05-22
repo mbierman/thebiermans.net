@@ -165,15 +165,20 @@
 											<div id="test" class="center" >
 												<figure class="swing">
 													<img src="images/michael_bierman.jpg" alt="Michael Bierman" id="biopic" class="img-rounded">
-												</figure>
-
+												</figure>				
+												
+										 	 <a accesskey="d" id="download" type="button" class="btn btn-primary btn-large" data-toggle="modal" data-target="#myModalM"><i class="icon-download-alt icon-white"></i>&nbsp;Downloads</a> 
+											 										
+												<!--
+											
 												<div class="btn-group">
 													<a class="btn btn-primary btn-large" href="#" data-toggle="dropdown" accesskey="d"><i class="icon-download-alt icon-white"></i>&nbsp;Downloads</a>
-													<a class="btn btn-primary dropdown-toggle btn-large" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+													
 													<ul class="dropdown-menu">
-														<li><a href="Michael%20Bierman%20Resume.pdf" rel="alternate" onclick="javascript: pageTracker._trackPageview('/downloads/PDF');">PDF</a></li>
+														<li><a href="Michael%20Bierman%20Resume.pdf" rel="alternate" onclick="javascript: pageTracker._trackPageview('/downloads/PDF'); ">PDF</a></li>
 														<li><a href="Michael%20Bierman%20Resume.docx" onclick="javascript:pageTracker._trackPageview('/downloads/DOC'); ">Word</a></li>
 														<li><a href="Michael%20Bierman%20Resume.txt" onclick="javascript:pageTracker._trackPageview('/downloads/TXT'); ">text</a></li>
+														<li data-toggle="modal" data-target="#myModalM"><a href="">User Agreement</a></li>
 													</ul>
 												</div>  <!-- end of button -->
 											</div> <!-- end of center -->
@@ -181,6 +186,33 @@
 									</div> <!--end of  span3 pull-right  -->
 								</div>  <!-- end of row -->
 							</div>  <!-- end of Hero -->
+							
+							
+							<!-- Download Modal Not ready for use yet 	-->
+							<div class="modal fade" id="myModalM" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							        <h4 class="modal-title" id="myModalLabel">User Agreement</h4>
+							      </div>
+							      <div class="modal-body">
+  								<p>The resume&rsquo;s copyrights do not allow general distribution. But, you may use the resume within your
+  									organization to determine if there is a match. But, please, do not distribute it outside your company
+  									without permission. Please contact me for permission to submit. By downloading you agree to these terms.</p>								      
+							      </div>
+							      <div class="modal-footer">
+												<div class="btn-group">
+												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.pdf" rel="alternate" onclick="javascript: pageTracker._trackPageview('/downloads/PDF'); ">PDF</a></button>
+												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.docx" onclick="javascript:pageTracker._trackPageview('/downloads/DOC'); ">Microsoft Word</a></button>
+												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.txt" onclick="javascript:pageTracker._trackPageview('/downloads/TXT'); ">text</a></button>	
+												  <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+												</div>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						
 
 
 <!-- iPhone nav -->
@@ -454,7 +486,7 @@
 								//]]>
 							</script>
 
-								<!-- Modal -->
+								<!-- Footer Modal -->
 								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 								  <div class="modal-dialog">
 								    <div class="modal-content">
