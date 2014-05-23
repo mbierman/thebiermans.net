@@ -13,17 +13,13 @@
 	<meta name="author" content="Michael Bierman resume at thebiermans.net">
 
 <!-- Fonts  -->
-	<link href="http://fonts.googleapis.com/css?family=Philosopher:regular&amp;subset=latin" rel="stylesheet" type="text/css" >
-	<link href="http://fonts.googleapis.com/css?family=Cantarell:regular,italic,bold&amp;subset=latin" rel="stylesheet" type="text/css" >
+	<link href="http://fonts.googleapis.com/css?family=Philosopher:regular&amp;subset=latin" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Cantarell:regular,italic,bold&amp;subset=latin" rel="stylesheet" type="text/css">
 
 <!-- Le styles -->
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="assets/css/bootstrap.css" rel="stylesheet" >
-	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet" >
-<!--
-	<script src="assets/js/less.js" > </script>
-	<script src="http://lesscss.googlecode.com/files/less-1.0.18.min.js"> </script>
--->
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 	<style type="text/css">
 		.sidebar-nav {
 			padding: 9px 0;
@@ -48,6 +44,7 @@
 
 
 <body>
+	
 	<!-- Google Analytics -->
 					<script>
 						var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -101,6 +98,9 @@
 	</div> <!-- end Navbar-fixed top -->
 
 	<div class="container">
+<!--		<div id="left"></div>
+		<div id="right"></div>
+-->		
 		<div class="row main drop-shadow raised">
 			<div class="12">
 				<div class="row">
@@ -167,7 +167,7 @@
 													<img src="images/michael_bierman.jpg" alt="Michael Bierman" id="biopic" class="img-rounded">
 												</figure>				
 												
-										 	 <a accesskey="d" id="download" type="button" class="btn btn-primary btn-large" data-toggle="modal" data-target="#myModalM"><i class="icon-download-alt icon-white"></i>&nbsp;Downloads</a> 
+										 	 <a accesskey="d" id="download" type="button" class="btn btn-primary btn-large" data-toggle="modal" data-target="#myModalM"><i class="fa fa-cloud-download fa-lg icon-white"></i>&nbsp;Downloads</a> 
 											 										
 											</div> <!-- end of center -->
 										</div> <!-- end of row -->
@@ -178,33 +178,39 @@
 							
 							<!-- Download Modal -->
 							<div class="modal fade" id="myModalM" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							  <div class="modal-dialog">
-							    <div class="modal-content">
-							      <div class="modal-header">
-							        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-							        <h4 class="modal-title" id="myModalLabel">User Agreement</h4>
-							      </div>
-							      <div class="modal-body">
-  								<p>The resume&rsquo;s copyrights do not allow general distribution. But, you may use the resume within your
-  									organization to determine if there is a match. But, please, do not distribute it outside your company
-  									without permission. Please contact me for permission to submit. By downloading you agree to these terms.</p>								      
-							      </div>
-							      <div class="modal-footer">
-												<div class="btn-group">
-												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.pdf" rel="alternate" onclick="javascript: pageTracker._trackPageview('/downloads/PDF'); ">
-													   <i class="fa fa-file-pdf-o fa-lg"></i>&nbsp;PDF</a></button>
-												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.docx" onclick="javascript:pageTracker._trackPageview('/downloads/DOC'); ">
-													  <i class="fa fa-file-word-o fa-lg"></i>&nbsp;Microsoft Word</a></button>
-												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.txt" onclick="javascript:pageTracker._trackPageview('/downloads/TXT'); ">
-													  <i class="fa fa-file-text-o fa-lg"></i>&nbsp;text</a></button>	
-												  <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times fa-lg"></i>&nbsp;Cancel</button>
-												</div>
-							      </div>
-							    </div>
-							  </div>
-							</div>
-						
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											<h4 class="modal-title" id="myModalLabel">User Agreement</h4>
+										</div>
+										<div class="modal-body">
+											<p>The resume&rsquo;s copyrights do not allow general distribution. But, you may use the resume
+												within your organization to determine if there is a match. But, please, do not distribute
+												it outside your company without permission. Please contact me for permission to submit.
+												By downloading you agree to these terms.</p>
+										</div>
 
+								<div class="modal-footer">
+									<div class="btn-group">
+										<a href="Michael%20Bierman%20Resume.pdf" rel="alternate">
+											<button type="button" class="btn btn-default" onclick="javascript: pageTracker._trackPageview('/downloads/PDF');">
+											<i class="fa fa-file-pdf-o fa-lg"></i>&nbsp;PDF
+										</button></a>
+										<a href="Michael%20Bierman%20Resume.docx" >
+											<button type="button" class="btn btn-default" onclick="javascript:pageTracker._trackPageview('/downloads/DOC');">
+											<i class="fa fa-file-word-o fa-lg"></i>&nbsp;Microsoft Word
+										</button></a>
+											<a href="Michael%20Bierman%20Resume.txt" >
+												<button type="button" class="btn btn-default" onclick="javascript:pageTracker._trackPageview('/downloads/TXT');">
+												<i class="fa fa-file-text-o fa-lg"></i>&nbsp;text</button></a>
+										<a><button type="button" class="btn btn-default" data-dismiss="modal">
+											<i class="fa fa-times fa-lg"></i>&nbsp;Cancel</button></a>
+									</div>
+								</div>
+						   </div>
+						  </div>
+					  </div>
 
 <!-- iPhone nav -->
 							<nav>
@@ -473,7 +479,10 @@
 								// console.log  ('date is: ' + curr_date + '-' + m_names[curr_month] + '\ncurrent year is: '
 								// + curr_year + '\n' + 'current month is: ' + modDate + '\ndb is: ' + db + '\nindb1 is: ' + db[1] + '\ndb2 is: ' + db[2] + '\ndb3 is: ' + db[3] );
 
-								document.write("<p data-toggle='modal' data-target='#myModal'>&copy;&nbsp;" + curr_year + "&nbsp;&nbsp;Michael Bierman&nbsp;&nbsp; All rights Reserved. <span style='text-decoration:underline'>User Agreement</span> | last updated: " + db + "&nbsp;GMT<img alt='Web Analytics' id='clicky' src='http://static.getclicky.com/media/links/badge.gif' width='80' height='15' ><\/p> ");
+								document.write("<p data-toggle='modal' data-target='#myModal'>&copy;&nbsp;" + curr_year +
+								"&nbsp;&nbsp;Michael Bierman&nbsp;&nbsp; All rights Reserved. <span style='text-decoration:underline'>User Agreement</span>
+								| last updated: " + db + "&nbsp;GMT<img alt='Web Analytics' id='clicky' src='http://static.getclicky.com/media/links/badge.gif'
+								width='80' height='15' ><\/p> ");
 								//]]>
 							</script>
 
@@ -485,19 +494,17 @@
 								        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 								        <h4 class="modal-title" id="myModalLabel">User Agreement</h4>
 								      </div>
-								      <div class="modal-body">
-	  								<p>The resume&rsquo;s copyrights do not allow general distribution. But, you may use the resume within your
-	  									organization to determine if there is a match. But, please, do not distribute it outside your company
-	  									without permission. Please contact me for permission to submit.</p>								      
-								      </div>
+									      <div class="modal-body">
+											  <p>The resume&rsquo;s copyrights do not allow general distribution. But, you may use the resume
+												  within your organization to determine if there is a match. But, please, do not distribute it
+												  outside your company without permission. Please contact me for permission to submit.</p>								      
+									      </div>
 								      <div class="modal-footer">
 								        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		
 								      </div>
 								    </div>
 								  </div>
 								</div>
-								
 								
 							<noscript>
 								<p  data-toggle='modal' data-target='#myModal'> &copy; 2014&nbsp;&nbsp;Michael&nbsp;Bierman&nbsp;&nbsp; All rights Reserved. <span style='text-decoration:underline'>User Agreement</span>
