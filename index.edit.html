@@ -17,7 +17,7 @@
 	<link href="http://fonts.googleapis.com/css?family=Cantarell:regular,italic,bold&amp;subset=latin" rel="stylesheet" type="text/css" >
 
 <!-- Le styles -->
-	<link href="assets/fontawesome/css/font-awesome.css" rel="stylesheet" >
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="assets/css/bootstrap.css" rel="stylesheet" >
 	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet" >
 <!--
@@ -169,18 +169,6 @@
 												
 										 	 <a accesskey="d" id="download" type="button" class="btn btn-primary btn-large" data-toggle="modal" data-target="#myModalM"><i class="icon-download-alt icon-white"></i>&nbsp;Downloads</a> 
 											 										
-												<!--
-											
-												<div class="btn-group">
-													<a class="btn btn-primary btn-large" href="#" data-toggle="dropdown" accesskey="d"><i class="icon-download-alt icon-white"></i>&nbsp;Downloads</a>
-													
-													<ul class="dropdown-menu">
-														<li><a href="Michael%20Bierman%20Resume.pdf" rel="alternate" onclick="javascript: pageTracker._trackPageview('/downloads/PDF'); ">PDF</a></li>
-														<li><a href="Michael%20Bierman%20Resume.docx" onclick="javascript:pageTracker._trackPageview('/downloads/DOC'); ">Word</a></li>
-														<li><a href="Michael%20Bierman%20Resume.txt" onclick="javascript:pageTracker._trackPageview('/downloads/TXT'); ">text</a></li>
-														<li data-toggle="modal" data-target="#myModalM"><a href="">User Agreement</a></li>
-													</ul>
-												</div>  <!-- end of button -->
 											</div> <!-- end of center -->
 										</div> <!-- end of row -->
 									</div> <!--end of  span3 pull-right  -->
@@ -188,7 +176,7 @@
 							</div>  <!-- end of Hero -->
 							
 							
-							<!-- Download Modal Not ready for use yet 	-->
+							<!-- Download Modal -->
 							<div class="modal fade" id="myModalM" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 							  <div class="modal-dialog">
 							    <div class="modal-content">
@@ -203,10 +191,13 @@
 							      </div>
 							      <div class="modal-footer">
 												<div class="btn-group">
-												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.pdf" rel="alternate" onclick="javascript: pageTracker._trackPageview('/downloads/PDF'); ">PDF</a></button>
-												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.docx" onclick="javascript:pageTracker._trackPageview('/downloads/DOC'); ">Microsoft Word</a></button>
-												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.txt" onclick="javascript:pageTracker._trackPageview('/downloads/TXT'); ">text</a></button>	
-												  <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.pdf" rel="alternate" onclick="javascript: pageTracker._trackPageview('/downloads/PDF'); ">
+													   <i class="fa fa-file-pdf-o fa-lg"></i>&nbsp;PDF</a></button>
+												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.docx" onclick="javascript:pageTracker._trackPageview('/downloads/DOC'); ">
+													  <i class="fa fa-file-word-o fa-lg"></i>&nbsp;Microsoft Word</a></button>
+												  <button type="button" class="btn btn-default"><a href="Michael%20Bierman%20Resume.txt" onclick="javascript:pageTracker._trackPageview('/downloads/TXT'); ">
+													  <i class="fa fa-file-text-o fa-lg"></i>&nbsp;text</a></button>	
+												  <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times fa-lg"></i>&nbsp;Cancel</button>
 												</div>
 							      </div>
 							    </div>
