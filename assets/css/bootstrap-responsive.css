@@ -269,7 +269,8 @@
   }
   .btn-small {
 	  width: 90%;
-	  margin: 0px 20px;
+	  margin: 0px 0px;
+	  text-align:middle;
   }
   .center {
 	  width: 400px;
@@ -894,6 +895,11 @@
     padding-right: 10px;
     padding-left: 10px;
   }
+  p.linknav.backtotop {
+	  margin-left: auto;
+	  margin-right: auto;
+	  width:100%;
+}
 }
 
 @media (min-width: 980px) {
