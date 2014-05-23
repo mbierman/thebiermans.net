@@ -8,6 +8,7 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+
 #left {
 	z-index:1000;
 	width:230px;
@@ -143,17 +144,38 @@
     padding-right: 10px;
     padding-left: 10px;
   }
+ 
   .modal {
     position: absolute;
     right: 0px;
     left: 0px;
 	margin: 0px 10px;
     width: auto;
-	top:200px !important;
+	position:fixed;
   }
-  .modal.fade.in {
-    top: auto;
+ 
+  #myModalD, #myModalD.modal.fade {
+	  -webkit-transition: opacity .3s linear, top .3s ease-out;
+	  -moz-transition: opacity .3s linear, top .3s ease-out;
+	  -ms-transition: opacity .3s linear, top .3s ease-out;
+	  -o-transition: opacity .3s linear, top .3s ease-out;
+	  transition: opacity .3s linear, top .3s ease-out;
+	  top: -250px;
   }
+     #myModalD.modal.fade.in {
+    top: 240px;
+  }
+ 
+  #myModalF, #myModalF.modal.fade {
+	  -webkit-transition: opacity .3s linear, top .3s ease-out;
+	  -moz-transition: opacity .3s linear, top .3s ease-out;
+	  -ms-transition: opacity .3s linear, top .3s ease-out;
+	  -o-transition: opacity .3s linear, top .3s ease-out;
+	  transition: opacity .3s linear, top .3s ease-out;
+	  bottom: 0px;
+	  height:240px;
+    }  
+ 
   .modal-header .close {
     padding: 10px;
     margin: -10px;
