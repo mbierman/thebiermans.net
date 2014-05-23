@@ -151,7 +151,6 @@
     left: 0px;
 	margin: 0px 10px;
     width: auto;
-	position:fixed;
   }
  
   #myModalD, #myModalD.modal.fade {
@@ -161,9 +160,11 @@
 	  -o-transition: opacity .3s linear, top .3s ease-out;
 	  transition: opacity .3s linear, top .3s ease-out;
 	  top: -250px;
+	  position:fixed;
+	  
   }
-     #myModalD.modal.fade.in {
-    top: 100px;
+     #myModalD.modal.fade.in,     #myModalF.modal.fade.in  {
+    top: 10px;
   }
  
   #myModalF, #myModalF.modal.fade {
@@ -173,8 +174,10 @@
 	  -o-transition: opacity .3s linear, top .3s ease-out;
 	  transition: opacity .3s linear, top .3s ease-out;
 	  bottom: 0px;
-	  height:20px;
+	  height: 240px;
+	  position:fixed;
     }  
+
  
   .modal-header .close {
     padding: 10px;
