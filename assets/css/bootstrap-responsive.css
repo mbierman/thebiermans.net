@@ -145,11 +145,11 @@
   }
   .modal {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    left: 10px;
+    right: 0px;
+    left: 0px;
+	margin: 0px 10px;
     width: auto;
-    margin: 0;
+	top:200px !important;
   }
   .modal.fade.in {
     top: auto;
@@ -183,6 +183,7 @@
 
 @media (max-width: 767px) {
   body {
+	height:100%;
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -536,7 +537,7 @@
     width: 370px;
   }
   .span3 {
-    width: 370px;
+    width: 360px;
   }
   .span2 {
     width: 170px;
