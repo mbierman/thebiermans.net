@@ -163,7 +163,7 @@
 	  top: -250px;
   }
      #myModalD.modal.fade.in {
-    top: 220px;
+    top: 100px;
   }
  
   #myModalF, #myModalF.modal.fade {
@@ -173,7 +173,7 @@
 	  -o-transition: opacity .3s linear, top .3s ease-out;
 	  transition: opacity .3s linear, top .3s ease-out;
 	  bottom: 0px;
-	  height:50px;
+	  height:20px;
     }  
  
   .modal-header .close {
