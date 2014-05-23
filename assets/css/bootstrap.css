@@ -516,9 +516,12 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .hero-unit{padding:20px;margin-bottom:30px;background-color:#eeeeee;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;width:100%;}
 .hero-unit h1{font-family:'Philosopher',serif;margin-bottom:0;font-size:60px;line-height:1;color:inherit;letter-spacing:-1px;}
 .hero-unit p{font-size:12px;font-weight:200;line-height:27px;color:inherit;}
-#quote{-webkit-box-shadow:2px 2px 10px black;-moz-box-shadow:2px 2px 10px black;box-shadow:2px 2px 10px black;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;font-size:80%;padding:10px 8px;margin:20px 0px 20px 0px;width:90%;text-align:left;font-size:90%;background:url("../../images/quote.png") repeat-x center;-o-background-size:100% 100%;-moz-background-size:100% 100%;-webkit-background-size:100% 100%;background-size:100% 100%;}
+#quote{-moz-box-shadow:2px 2px 10px black;box-shadow:2px 2px 10px black;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;font-size:80%;padding:10px 8px;margin:20px 0px 20px 0px;width:90%;text-align:left;font-size:90%;background:url("../../images/quote.png") repeat-x center;-o-background-size:100% 100%;-moz-background-size:100% 100%;-webkit-background-size:100% 100%;background-size:100% 100%;}
 .quotesig,.quotesig a{font-style:normal;color:lightgrey;padding-right:4px;text-align:center;padding-top:10px;display:block;font-weight:600;}
-@media screen and (max-width:499px){#quote{background:#ffffff;color:black;width:94%;}
+@media screen and (max-width:499px){#quote{background:#ffffff;color:black;w width: 90%;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+-moz-box-shadow: none; box-shadow: none;;}
 .quoteTitle{font-weight:900;font-size:20px;padding-bottom:2px;color:black;}
 .quotesig,.quotesig a{color:black;padding-top:4px;}
 }
@@ -569,7 +572,7 @@ footer{color:black;margin:10px 0px;padding:25px 0px 0px 15px;border-top:#eeeeee 
 .h1{margin:5px 0px 20px 5px;text-align:left;}
 .full{display:block;top:0px;left:0px;height:100%;width:100%;background:white;position:absolute;}
 /* Shared styles */
-.drop-shadow{left:0px;position:relative;width:100%;height:80%;padding:1em;margin:0em 20px 4em 20px;background:#fff;-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;-moz-box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;display:block;margin-left:auto;margin-right:auto;}
+.drop-shadow{left:0px;position:relative;height:80%;padding:1em;margin:0em 20px 4em 20px;background:#fff;-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;-moz-box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;box-shadow:0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;display:block;margin-left:auto;margin-right:auto;}
 .drop-shadow:before,
 .drop-shadow:after{content:"";position:absolute;z-index:-2;}
 iframe{width:100%;height:100%;border:0;}
