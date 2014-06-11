@@ -42,12 +42,6 @@ quotes.push("&ldquo;1. Question assumptions.</br> 2. When in doubt, improvise.</
 
 quotes.push("&ldquo;Our willingness to fail gives us the ability and opportunity to succeed where others may fear to tread.&rdquo;</br></br>&ldquo;I&rsquo;ve missed more than 9000 shots in my career. I&rsquo;ve lost almost 300 games. Twenty six times, I&rsquo;ve been trusted to take the game-winning shot and missed. I&rsquo;ve failed over and over and over again in my life. And that is why I succeed.&rdquo; <span class='quotesig'>~&nbsp;Michael Jordan</span>");
 
-quotes.push("&ldquo;You can fail at what you don&rsquo;t want, so you might as well take a chance on doing what you love.&rdquo; <span class='quotesig'>~&nbsp;Jim Carrey</span>");
-
-quotes.push("&ldquo;“It&rsquo;s a terrible thing, I think, in life to wait until you&rsquo;re ready. I have this feeling now that actually no one is ever ready to do anything. There&rsquo;s almost no such thing as ready. There&rsquo;s only now. And you may as well do it now. I mean, I say that confidently as if I&rsquo;m about to go bungee jumping or something - I&rsquo;m not. I&rsquo;m not a crazed risk taker. But I do think that, generally speaking, now is as good a time as any.&rdquo; <span class='quotesig'>~&nbsp;Hugh Laurie</span>");
-
-quotes.push("&ldquo;“The planet does not need more successful people. The planet desperately needs more peacemakers, healers, restorers, storytellers and lovers of all kinds&rdquo; <span class='quotesig'>~&nbsp;Dali Lama</span>");
-
 
 //End quotes
 
