@@ -46,9 +46,9 @@ quotes.push("&ldquo;You can fail at what you don&rsquo;t want, so you might as w
 
 quotes.push("&ldquo;“It&rsquo;s a terrible thing, I think, in life to wait until you&rsquo;re ready. I have this feeling now that actually no one is ever ready to do anything. There&rsquo;s almost no such thing as ready. There&rsquo;s only now. And you may as well do it now. I mean, I say that confidently as if I&rsquo;m about to go bungee jumping or something - I&rsquo;m not. I&rsquo;m not a crazed risk taker. But I do think that, generally speaking, now is as good a time as any.&rdquo; <span class='quotesig'>~&nbsp;Hugh Laurie</span>");
 
-quotes.push("&ldquo;“The planet does not need more successful people. The planet desperately needs more peacemakers, healers, restorers, storytellers and lovers of all kinds&rdquo; <span class='quotesig'>~&nbsp;Dali Lama</span>");
+quotes.push("&ldquo;“The planet does not need more successful people. The planet desperately needs more peacemakers, healers, restorers, storytellers and lovers of all kinds.&rdquo; <span class='quotesig'>~&nbsp;Dali Lama</span>");
 
-
+quotes.push("&ldquo;“The enemy is fear. We think it is hate; but, it is fear.&rdquo; <span class='quotesig'>~&nbsp;Gandhi</span>");
 
 
 //End quotes
