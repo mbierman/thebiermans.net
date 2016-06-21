@@ -8,6 +8,34 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+
+#left {
+	z-index:1000;
+	width:230px;
+	height:100%;
+	border: dashed red 1px ;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+#right {
+	z-index:1000;
+	width:230px;
+	height:100%;
+	border: dashed blue 1px;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+#download {
+	clear:both;
+	position:relative;
+	right:50px;
+	display:inline-block;
+}
+
 .clearfix {
   *zoom: 1;
 }
@@ -85,6 +113,19 @@
   .visible-desktop {
     display: none !important ;
   }
+  .center {
+	 display:block;
+	 padding: 0px;
+	 text-align:center;
+	 width: 100%;
+	 margin:auto;
+    }
+  #download {
+  	clear:both;
+	position:relative;
+	top:30px;
+	left:0px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -115,17 +156,41 @@
     padding-right: 10px;
     padding-left: 10px;
   }
+ 
   .modal {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    left: 10px;
+    right: 0px;
+    left: 0px;
+	margin: 0px 10px;
     width: auto;
-    margin: 0;
   }
-  .modal.fade.in {
-    top: auto;
+ 
+  #myModalD, #myModalD.modal.fade {
+	  -webkit-transition: opacity .3s linear, top .3s ease-out;
+	  -moz-transition: opacity .3s linear, top .3s ease-out;
+	  -ms-transition: opacity .3s linear, top .3s ease-out;
+	  -o-transition: opacity .3s linear, top .3s ease-out;
+	  transition: opacity .3s linear, top .3s ease-out;
+	  top: -250px;
+	  position:fixed;
+	  
   }
+     #myModalD.modal.fade.in,     #myModalF.modal.fade.in  {
+    top: 10px;
+  }
+ 
+  #myModalF, #myModalF.modal.fade {
+	  -webkit-transition: opacity .3s linear, top .3s ease-out;
+	  -moz-transition: opacity .3s linear, top .3s ease-out;
+	  -ms-transition: opacity .3s linear, top .3s ease-out;
+	  -o-transition: opacity .3s linear, top .3s ease-out;
+	  transition: opacity .3s linear, top .3s ease-out;
+	  bottom: 0px;
+	  height: 240px;
+	  position:fixed;
+    }  
+
+ 
   .modal-header .close {
     padding: 10px;
     margin: -10px;
@@ -133,17 +198,45 @@
   .carousel-caption {
     position: static;
   }
+  p.visible-phone {
+	  width:100% !important;
+  }
+ .btn-group {
+	 margin: 0px !important;
+	 padding: 0px !important;
+  }
+  #biopic {
+	  float: none !important;
+	  text-align:center;
+  }
+  
+  .center {
+	 text-align:center;
+	 margin:auto;
+	 display:block;
+	 position:relative;
+	 padding: 0px;
+	 width: 100% !important;
+	 margin:0px;
+	 clear:both;
+    }	
+  #download {
+	left:0px;
+	margin:auto;
+	text-align:center;
+  }
 }
+
 
 @media (max-width: 767px) {
   body {
-    padding-right: 20px;
-    padding-left: 20px;
+	height:100%;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .navbar-fixed-top,
   .navbar-fixed-bottom {
-    margin-right: -20px;
-    margin-left: -20px;
+   
   }
   .container-fluid {
     padding: 0;
@@ -196,6 +289,16 @@
     display: inline-block;
     width: auto;
   }
+  .btn-small {
+	  width: 90%;
+	  margin: 0px 0px;
+	  text-align:middle;
+  }
+  .center {
+	  width: 400px;
+  }
+  
+  #download{margin-top:30px;}
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -212,7 +315,7 @@
     clear: both;
   }
   [class*="span"] {
-    float: left;
+/*    float: left; */
     margin-left: 20px;
   }
   .container,
@@ -233,7 +336,7 @@
     width: 538px;
   }
   .span8 {
-    width: 476px;
+    width: 550px;
   }
   .span7 {
     width: 414px;
@@ -248,7 +351,7 @@
     width: 228px;
   }
   .span3 {
-    width: 166px;
+    /* width: 166px; */
   }
   .span2 {
     width: 104px;
@@ -436,7 +539,7 @@
 
 @media (min-width: 1200px) {
   .row {
-    margin-left: -30px;
+   /* margin-left: -30px; */
     *zoom: 1;
   }
   .row:before,
@@ -448,7 +551,7 @@
     clear: both;
   }
   [class*="span"] {
-    float: left;
+    float: middle ;
     margin-left: 30px;
   }
   .container,
@@ -481,10 +584,11 @@
     width: 470px;
   }
   .span4 {
-    width: 370px;
+    width: 320px;
+	padding-left:0px;
   }
   .span3 {
-    width: 270px;
+    width: 400px;
   }
   .span2 {
     width: 170px;
@@ -677,6 +781,21 @@
   .row-fluid .thumbnails {
     margin-left: 0;
   }
+  #biopic {
+	  display: inline;
+	  float: right;
+  }
+  .center {
+	  text-align: right;
+	  display: inline;
+  }
+  .btn-group {
+	  padding-top: 60px;
+  }
+  #download {
+	position:relative;
+  	top:20px;
+  }
 }
 
 @media (max-width: 979px) {
@@ -805,6 +924,12 @@
     padding-right: 10px;
     padding-left: 10px;
   }
+  p.linknav.backtotop {
+	  margin-left: auto;
+	  margin-right: auto;
+	  width:100%;
+}
+
 }
 
 @media (min-width: 980px) {
@@ -812,4 +937,9 @@
     height: auto !important;
     overflow: visible !important;
   }
+  #download {
+	left:0px;
+  	margin:30px 0px 0px 0px;
+  }
+  
 }

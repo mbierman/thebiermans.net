@@ -1,114 +1,110 @@
-MICHAEL BIERMAN
 
-408 692 5229
-www.thebiermans.net
-resume (at) thebiermans.net
-santa clara, california
+Michael Bierman
+santa clara, california	?	www.thebiermans.net	?	resume (at) thebiermans.net	?	408 692 5229
 
-PROFILE
-
-More than 15 years experience product management and design of web and mobile platforms, APIs, developer and consumer software. Proven ability to identify successful new product opportunities, reinvigorate and grow existing product lines, set a long-term strategy consistent with brand promise, and champion a product internally and externally. Strong technical skills combined with business acumen. Keen ability to identify the problems that need to be solved and work with all the constituents to plan and prioritize.
-
-PROFESSIONAL HIGHLIGHTS
-
+Profile
+More than 15 years of product management and design experience of mobile and web products, platforms, and 
+APIs, with a focus on eCommerce, developer and consumer applications. Ability to identify new product 
+opportunities, reinvigorate and grow product lines, set long-term strategy consistent with brand promise, and 
+champion a product internally and externally. Strong technical skills combined with business acumen applied to 
+identify the problems to be solved and work with all the constituents to plan and prioritize.
+Professional Highlights
 Product Management
-
-* Managed web developer products for Nokia covering 85% of the addressable developer market. Created first four generations of Nokia Web SDK with a team spread over three continents. These products were essential components of Nokia's industry-leading mobile developer offerings.
-
-* Created eBay Blogs to enhance eBayâ€™s renowned community and drive significant natural search traffic through community-created, persistent, rich content. Buyers and sellers used eBay Blogs to enhance their credibility, trustworthiness, and reputation while eBay enjoys increased time on site and transaction volumes.
-
-* Redesigned eBayâ€™s Product Description Pages to drive a $1.8M annual increase in transaction activity and significant increases in page views via natural search.
-
-* Managed all phases of the product life cycle on time and within budget for three consecutive releases of Adobe SVG Viewer, including market (MRD) and product requirement (PRD) documents and product integration with Adobeâ€™s authoring tools and servers including Illustrator, InDesign, GoLive and Graphics Server.
-
-* Developed a licensing and distribution strategy for Adobe SVG Viewer, including third-party distribution with partners such as RealNetworks, establishing more than 166 million seats (38% market penetration) installed over approximately 14 months.
-
-* Turned 300 unique support contracts with non-standard terms worth more than $225M into three standard contracts to ensure Sun could meet the contractual obligations to its Java source licensees. Created royalty and support revenue forecasts.
-
-* Led a cross-functional team to improve the out-of-box experience by simplifying the product installation, increasing customer satisfaction and converting more evaluations into purchases, and saving Microtec more than $250,000 annually.
-
-* Created the prototype and feature requirements for Microtecâ€™s first on-line documentation system which increased usability and reduced the cost of documentation by 23%.
-
-* Increased Microtec's support renewal revenue by 15% in one year.
-
-Evangelism
-
-* Represented Adobe at conferences and seminars such as Seybold, Builder.com, and FlashForward. Awarded the Adobe Customer Briefing Centerâ€™s Quarterly Top Presenter and Speaker of the Year awards.
-
-* Created an early adopter community to inform and inspire developers by communicating Adobe strategy, delivering announcements, and gathering requirements to establish Adobeâ€™s product leadership.
-
-* Managed staff of five to create and evolve a developer network (www.adobe.com/svg) including demos, whitepapers, and authoring guides to educate and inspire SVG technology adoption.
-
-* Served as Adobe's Marketing liaison to the World Wide Web Consortium (W3C), ensuring that Adobe's messages were congruent with the W3C.
+*	Managed web developer products for Nokia covering 85% of the addressable developer market. Created 
+first four generations of Nokia Web SDK with a team spread over three continents. These products were 
+essential components of Nokia's industry-leading mobile developer offerings.
+*	Created eBay Blogs to enhance eBayÕs renowned community by driving significant natural search traffic 
+through user-generated, persistent, rich content. Buyers and sellers used eBay Blogs to enhance their 
+credibility, trustworthiness, and reputation while eBay enjoyed increased time on site and transaction 
+volumes.
+*	Redesigned eBayÕs Product Description Pages to drive a $1.8M annual increase in transaction activity 
+and significant increases in page views via natural search.
+*	Managed all phases of the product life cycle on time and within budget for three consecutive releases of 
+Adobe SVG Viewer, including market (MRD) and product requirement (PRD) documents and product 
+integration with AdobeÕs authoring tools and servers including Illustrator, InDesign, GoLive and Graphics 
+Server.
+*	Developed a licensing and distribution strategy for Adobe SVG Viewer, including third-party distribution 
+with partners such as RealNetworks, establishing more than 166 million seats (38% market penetration) 
+installed over approximately 14 months.
+*	Turned 300 support contracts with non-standard terms worth more than $225M into three standard 
+contracts to ensure Sun could meet the contractual obligations to its Java source licensees. Created 
+royalty and support revenue forecasts.
+*	Led a cross-functional team to improve the out-of-box experience by simplifying the product installation, 
+increasing customer satisfaction and converting more evaluations into purchases, and saving Microtec 
+more than $250,000 annually.
+*	Created the prototype and requirements for MicrotecÕs first on-line documentation system, which 
+increased usability and reduced the cost of documentation by 23%.
+*	Increased MicrotecÕs support renewal revenue by 15% in one year.
 
 
-
-EMPLOYMENT HISTORY
-
-@WalmartLabs:   Principal Product Manager, Mobile Services
-
-Walmart does eCommerce at incredible scale. Mobile Services enabled a dozen mobile applications across four platforms (Android, iPhone, iPad, and mWeb) and three properties (ASDA, Sam's Club, and Walmart). As the Product Manager for Mobile Services, I help create new APIs and orchestrate internal and 3rd party APIs to enable end-to-end mCommerce, including in-store and multi-channel features, which optimize for mobile clients by reducing number of calls and payload sizes, reduce client resource usage (battery, CPU, bandwidth etc.), and keep as much business logic out of the client code as possible for development and runtime efficiencies. Examples include Pharmacy, Checkout, payment and shipping enhancements, and holiday promotions. My team also has responsibility for Security, Operational Analytics, and Production Support.  2012 â€“ Present
-
-Apigee:    Principal Product Manager, API Tools
-
-Lead cross-product initiatives like Single Sign-On to consolidate eight unique user stores and experiences. Created developer tools such as Console which enable a developer to make an API request in minutes by providing an overview of all the APIâ€˜s methods, parameters, default and required values, contextual help, and authentication. Consoles include a social component: allowing developers to share their API requests and responses with other developers and support engineers via Facebook, twitter or in blogs. Applied agile principals to achieve monthly release cycles that allowed for rapid innovation with predictable delivery.  2011 â€“ 2012
-
-Nokia:   Lead Product Manager, Web Tools
-
-Managed the WRT developer toolchain from a blank slate. The Nokia Web SDK [video] included: Web SDK Simulator; Nokia Designer, a rapid prototyping tool; Nokia Web Runtime plug-in for Eclipse, WRT extension for Adobe Dreamweaver and WRT plugin for Microsoft Visual Studio. These enabled the full life cycle of mobile application development, from concept and ideation to publishing. Challenges included aligning diverse and sometimes conflicting requirements and roadmaps for the many devices and services in Nokiaâ€™s portfolio. An innovator in mobile web technology, Nokia was the first to ship a WebKit-based browser on mobile devices, beating Apple to market by two years.  2008 â€“ 2011
-
-
-Product Management Consultant
-
-Provided guidance on how to move the product-line to the next level including product and process definition, requirements development and roadmaps. Recommended changes to product usability, accessibility, and development processes for Assist Guide Information Services and other companies. 2007-2008
-
-Habeas:    Senior Product Manager
-
-Conceived and launched new products that created a competitive advantage based on Adobe Flex, a Yahoo! Map mashup, and populated by a combination of in-house and third-party data (patent pending). Developed a platform for a new line of business focused on advertising. 2006-2007
-
-eBay:   Senior Product Manager, Internet Marketing & Community
-
-Launched new products, such as eBay Blogs and redesigned the Product Description pages, to enhance the eBay Community and maximize natural search traffic and decrease eBayâ€™s paid search expenditure. 2005-2006
-
-Product Management Consultant
-
-Consulted for a number of companies on a variety of product management and marketing areas including: Adobe, BEA, enScaler, Ideaburst, Open Design Alliance, and Software Mechanics. 2001-2005
-
-Adobe Systems Senior Product Manager and Evangelist
-
-Managed the course of the Adobe SVG Viewer, of the Adobe SVG Viewer, a browser plug-in similar to Flash. As SVG Evangelist, influenced the Creative Suite-SVG authoring features and created a vibrant developer community. Scalable Vector Graphics (SVG) is the W3C â€™s XML -based language for scriptable 2D vector graphics that enables data-driven graphics for web, mobile and print, and is now supported natively in all popular web browsers. 1999-2001
-
-Sun Microsystems Product Manager, Java Source Licensee Engineering
-
-Managed an engineering services product and provided customer relations and advocacy by serving as the liaison among the engineering, legal, and sales organizations. 1997-1999
-
-Microtec, A Mentor Graphics Company Project Manager, Marketing
-
-Managed a compiler and IDE product, introduced new licensing programs, and served as Lead Auditor for ISO 9000 registration for Microtecâ€™s Integrated Development Environments (IDE) and a Real-Time OS. 1995-1997
-
-Globetrotter Software, A Macrovision Corporation Training/Technical Support
-
-Developed and delivered course materials, provided end user and developer support, and produced and edited end-user and developer manuals and marketing materials for Globetrotterâ€™s license-management products for enterprise and software publishers. 1994-1995
-
-Sun Microsystems,  SunPro:    Developer Tools
-
-Product Manager for FlexLM-based compiler licensing, served as the FrameMaker Guru and developed tools and scripts for document development for Sun's AnswerBook documentation, a display Postscript-based hypertext system; a precursor to the web and PDF and technical editor for developer documentation. 1990-1994
-
-
-
-EDUCATION, CERTIFICATIONS, PUBLICATIONS & AWARDS
-
-* Certified ScrumMaster, cPrime 2011
-
-* U.S. Patent Pending 60/950,102 "Method and Apparatus For Visualizing and Optimizing Message Transfer in Reputation Networks," Bierman et al. July 16, 2007
-
-* Bachelor of Arts; California State University, Northridge
-
-* Mediation Certification, California Community Dispute Resolution
-
-* Award for Excellence, Society for Technical Communication Style Guide 1994
-
-* Adobe Customer Briefing Center's Quarterly Top Presenter and Speaker of the Year award 2000
+Employment History
+Comcast Principal Product Manager, Personal Media	2014ÐPresent
+Leading initiatives for casting photos, videos, and live video streams on TV from XFINITY mobile apps. Created 
+new ways of acquiring and retaining users of our X1 set-top apps through personalization, improved user flows, 
+and making an amazing experience for sharing media in a 10' experience.
+WalmartLabs Principal Product Manager, Mobile Services	2012Ð2014
+Walmart does eCommerce at incredible scale. Mobile Services enabled a dozen mobile applications across four 
+platforms (Android, iPhone, iPad, and mWeb) and three properties (ASDA, Sam's Club, and Walmart). As the 
+Product Owner for Mobile Services, I collected requirements for new APIs to orchestrate internal and 3rd party 
+APIs which enable end-to-end mCommerce, including in-store and multi-channel features, which optimize for 
+mobile clients by reducing number of calls and payload sizes, reducing client resources (battery, CPU, bandwidth, 
+etc.), while keeping as much business logic out of the client as possible. Projects include a Pharmacy make over, 
+Checkout, payment and shipping enhancements, and holiday promotions. My team also has responsibility for 
+Security, Operational Analytics, and Production Support.
+Apigee Principal Product Manager, Developer Tools	2011Ð2012
+Lead cross-product initiatives like Single Sign-On to consolidate eight unique user stores and experiences. Created 
+developer tools such as Console which enable a developer to make an API request in minutes by providing an 
+overview of all the APIÔs methods, parameters, default and required values, contextual help, and authentication. 
+Consoles include a social component: allowing developers to share their API requests and responses with other 
+developers and support engineers via Facebook, twitter or in blogs. Applied agile principals to achieve monthly 
+release cycles that allowed for rapid innovation and predictability.
+Nokia Lead Product Manager, Web Tools	2008Ð2011
+Managed the WRT developer toolchain from a blank slate. The Nokia Web SDK, Web SDK Simulator; Nokia 
+Designer, a rapid prototyping tool; Nokia Web Runtime plug-in for Eclipse, WRT extension for Adobe 
+Dreamweaver and WRT plugin for Microsoft Visual Studio. These enabled the full life cycle of mobile application 
+development, from concept and ideation to publishing. Challenges included aligning diverse and sometimes 
+conflicting requirements and roadmaps for the many devices and services in NokiaÕs portfolio. An innovator in 
+mobile web, Nokia shipped a WebKit-based browser on mobile devices two years before Apple.
+Product Management Consultant	2007Ð2008
+Advised Silicon Valley startups including Product definition, requirements, and roadmaps. Recommended changes 
+to improve usability, accessibility, and development processes for Assist Guide Information Services and others.
+Habeas Senior Product Manager	2006Ð2007
+Conceived and launched new products based on Adobe Flex, a Yahoo! Map mashup (patent pending). Developed 
+a platform for a new line of business focused on advertising.
+eBay Senior Product Manager, Internet Marketing & Community	2005Ð2006
+Launched new products, such as eBay Blogs and redesigned the Product Description pages, to enhance the eBay 
+Community and maximize natural search traffic and decrease eBayÕs paid search expenditure.
+Product Management Consultant	2001Ð2005
+Consulted for a number of companies on a variety of product management and marketing areas including: 
+Adobe, BEA, enScaler, Ideaburst, Open Design Alliance, and Software Mechanics.
+Adobe Systems Senior Product Manager and Evangelist	1999Ð2001
+Managed the Adobe SVG Viewer, a browser plug-in similar to Flash. As SVG Evangelist, influenced the Creative 
+Suite-SVG authoring features and created a vibrant developer community. Represented Adobe at conferences 
+such as Seybold, Builder.com, and FlashForward. Managed a staff to create and evolve a developer network 
+including demos, whitepapers, and authoring guides to educate and inspire SVG adoption.
+Scalable Vector Graphics (SVG) is the W3CÕs XML-based language for scriptable 2D vector graphics that enables 
+data-driven graphics for web, mobile and print, and is now supported in all popular web browsers.
+Additional Work Experience
+Sun Microsystems Product Manager, Java Source Engineering	1997Ð1999
+Microtec, A Mentor Graphics Company Project Manager, Marketing	1995Ð1997
+Globetrotter Software, A Macrovision Corp Training/Technical Support	1994Ð1995
+Sun Microsystems, SunPro Developer Tools	1990Ð1994
 
 
-Michael Bierman   |   michael (at) thebiermans.net	408 692 5229   |   thebiermans.net
+Education, Certifications, Publications & Awards
+*	Certified ScrumMaster, cPrime 2011
+*	DeanÕs List for Computer Forensics coursework/ Computer Science Program, College of San Mateo 2004
+*	U.S. Patent Pending 60/950,102 ÒMethod and Apparatus For Visualizing and Optimizing Message 
+Transfer in Reputation Networks,Ó Bierman et al., July 16, 2007
+*	Cagle, Kurt, foreword by Bierman, Michael; SVG Programming. Berkeley: Apress, July 2002 Bachelor of 
+Arts; California State University, Northridge
+*	Mediation Certification, California Community Dispute Resolution
+*	Award for Excellence, Society for Technical Communication Style Guide 1994
+*	Adobe Customer Briefing CenterÕs Quarterly Top Presenter and Speaker of the Year award 2000
+Contact
+ 
+ 
+Web Site
+Call Michael
+
+Michael Bierman 	michael (at) thebiermans.net	408 692 5229	thebiermans.net	3

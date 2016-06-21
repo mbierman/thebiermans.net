@@ -42,6 +42,14 @@ quotes.push("&ldquo;1. Question assumptions.</br> 2. When in doubt, improvise.</
 
 quotes.push("&ldquo;Our willingness to fail gives us the ability and opportunity to succeed where others may fear to tread.&rdquo;</br></br>&ldquo;I&rsquo;ve missed more than 9000 shots in my career. I&rsquo;ve lost almost 300 games. Twenty six times, I&rsquo;ve been trusted to take the game-winning shot and missed. I&rsquo;ve failed over and over and over again in my life. And that is why I succeed.&rdquo; <span class='quotesig'>~&nbsp;Michael Jordan</span>");
 
+quotes.push("&ldquo;You can fail at what you don&rsquo;t want, so you might as well take a chance on doing what you love.&rdquo; <span class='quotesig'>~&nbsp;Jim Carrey</span>");
+
+quotes.push("&ldquo;“It&rsquo;s a terrible thing, I think, in life to wait until you&rsquo;re ready. I have this feeling now that actually no one is ever ready to do anything. There&rsquo;s almost no such thing as ready. There&rsquo;s only now. And you may as well do it now. I mean, I say that confidently as if I&rsquo;m about to go bungee jumping or something - I&rsquo;m not. I&rsquo;m not a crazed risk taker. But I do think that, generally speaking, now is as good a time as any.&rdquo; <span class='quotesig'>~&nbsp;Hugh Laurie</span>");
+
+quotes.push("&ldquo;“The planet does not need more successful people. The planet desperately needs more peacemakers, healers, restorers, storytellers and lovers of all kinds.&rdquo; <span class='quotesig'>~&nbsp;Dali Lama</span>");
+
+quotes.push("&ldquo;“The enemy is fear. We think it is hate; but, it is fear.&rdquo; <span class='quotesig'>~&nbsp;Gandhi</span>");
+
 
 //End quotes
 
@@ -54,15 +62,16 @@ document.write(quotes[(Math.floor(Math.random() * quotes.length))]);
 // Fading code from http://www.javascriptkit.com/dhtmltutors/fadingtext.shtml
 
 // Fades the quote text
-var hexinput = 255;   // Initial color value.
+// var hexinput = 255;   // Initial color value.
 // var inc=-1       //increment variable
 
+alert("hello world");
 
 function fadeText() {
     "use strict";
     if (hexinput > 0) {
         hexinput -= 11;     // increase color value
-        document.getElementById("quoteDiv").style.color = "rgb(" + hexinput + "," + hexinput + "," + hexinput + ")"; // Set color value.
+        // document.getElementById("quoteDiv").style.color = "rgb(" + hexinput + "," + hexinput + "," + hexinput + ")"; // Set color value.
         setTimeout("fadeText()", 40);
     } else {
         hexinput = 255;   //reset hex value
@@ -76,15 +85,15 @@ function changeText() {
 // document.getElementById('quoter').innerHTML=(quotes[(Math.floor(Math.random() * quotes.length))]);
 	var SS = quotes[(Math.floor(Math.random() * quotes.length))];
 	//	console.log (SS);
-	// alert (SS);
+	 alert (SS);
 	//	console.log("call fade");
-	fadeText();
+	// fadeText();
 	document.getElementById('quoter').innerHTML=(SS);
 }
 
 
 setInterval('changeText()', 9000);
-// setInterval('fadeText()', 9942);
+setInterval('fadeText()', 100);
 
 // Testing junk
 // setInterval("console.log('New text');", 9942);
