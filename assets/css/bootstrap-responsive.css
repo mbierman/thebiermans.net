@@ -301,7 +301,7 @@
   #download{margin-top:30px;}
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
+@media (max-width: 979px) and (min-width: 768px) {
   .row {
     margin-left: -20px;
     *zoom: 1;
@@ -352,6 +352,7 @@
   }
   .span3 {
     /* width: 166px; */
+	padding-bottom: 30px;
   }
   .span2 {
     width: 104px;
