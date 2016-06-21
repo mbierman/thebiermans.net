@@ -86,46 +86,11 @@
 }
 
 @media (max-width: 767px) {
-  .visible-phone {
-    display: inherit !important;
-  }
-  .hidden-phone {
-    display: none !important;
-  }
-  .hidden-desktop {
-    display: inherit !important;
-  }
-  .visible-desktop {
-    display: none !important;
-  }
+	/* get rid of later */
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-  .visible-tablet {
-    display: inherit !important;
-  }
-  .hidden-tablet {
-    display: none !important;
-  }
-  .hidden-desktop {
-    display: inherit !important;
-  }
-  .visible-desktop {
-    display: none !important ;
-  }
-  .center {
-	 display:block;
-	 padding: 0px;
-	 text-align:center;
-	 width: 100%;
-	 margin:auto;
-    }
-  #download {
-  	clear:both;
-	position:relative;
-	top:30px;
-	left:0px;
-  }
+	/* Get rid of this */
 }
 
 @media (max-width: 480px) {
@@ -297,8 +262,21 @@
   .center {
 	  width: 400px;
   }
-  
   #download{margin-top:30px;}
+  aside {margin-bottom:30px !important;}
+  
+  .visible-phone {
+    display: inherit !important;
+  }
+  .hidden-phone {
+    display: none !important;
+  }
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important;
+  }
 }
 
 @media (max-width: 979px) and (min-width: 768px) {
@@ -535,6 +513,32 @@
   textarea.span1,
   .uneditable-input.span1 {
     width: 32px;
+  }
+  
+  .visible-tablet {
+    display: inherit !important;
+  }
+  .hidden-tablet {
+    display: none !important;
+  }
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important ;
+  }
+  .center {
+	 display:block;
+	 padding: 0px;
+	 text-align:center;
+	 width: 100%;
+	 margin:auto;
+    }
+  #download {
+  	clear:both;
+	position:relative;
+	top:30px;
+	left:0px;
   }
 }
 
