@@ -62,15 +62,16 @@ document.write(quotes[(Math.floor(Math.random() * quotes.length))]);
 // Fading code from http://www.javascriptkit.com/dhtmltutors/fadingtext.shtml
 
 // Fades the quote text
-var hexinput = 255;   // Initial color value.
+// var hexinput = 255;   // Initial color value.
 // var inc=-1       //increment variable
 
+alert("hello world");
 
 function fadeText() {
     "use strict";
     if (hexinput > 0) {
         hexinput -= 11;     // increase color value
-        document.getElementById("quoteDiv").style.color = "rgb(" + hexinput + "," + hexinput + "," + hexinput + ")"; // Set color value.
+        // document.getElementById("quoteDiv").style.color = "rgb(" + hexinput + "," + hexinput + "," + hexinput + ")"; // Set color value.
         setTimeout("fadeText()", 40);
     } else {
         hexinput = 255;   //reset hex value
@@ -84,15 +85,15 @@ function changeText() {
 // document.getElementById('quoter').innerHTML=(quotes[(Math.floor(Math.random() * quotes.length))]);
 	var SS = quotes[(Math.floor(Math.random() * quotes.length))];
 	//	console.log (SS);
-	// alert (SS);
+	 alert (SS);
 	//	console.log("call fade");
-	fadeText();
+	// fadeText();
 	document.getElementById('quoter').innerHTML=(SS);
 }
 
 
 setInterval('changeText()', 9000);
-// setInterval('fadeText()', 9942);
+setInterval('fadeText()', 100);
 
 // Testing junk
 // setInterval("console.log('New text');", 9942);

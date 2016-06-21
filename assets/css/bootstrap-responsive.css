@@ -32,10 +32,9 @@
 #download {
 	clear:both;
 	position:relative;
-	margin-top:60px;
+	right:50px;
 	display:inline-block;
 }
-
 
 .clearfix {
   *zoom: 1;
@@ -114,6 +113,19 @@
   .visible-desktop {
     display: none !important ;
   }
+  .center {
+	 display:block;
+	 padding: 0px;
+	 text-align:center;
+	 width: 100%;
+	 margin:auto;
+    }
+  #download {
+  	clear:both;
+	position:relative;
+	top:30px;
+	left:0px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -186,9 +198,6 @@
   .carousel-caption {
     position: static;
   }
-  .center {
-	  display: block;
-  }
   p.visible-phone {
 	  width:100% !important;
   }
@@ -196,12 +205,25 @@
 	 margin: 0px !important;
 	 padding: 0px !important;
   }
-  .center {
-	  width: 150px !important;
-	  padding: 0px;
-  }
   #biopic {
 	  float: none !important;
+	  text-align:center;
+  }
+  
+  .center {
+	 text-align:center;
+	 margin:auto;
+	 display:block;
+	 position:relative;
+	 padding: 0px;
+	 width: 100% !important;
+	 margin:0px;
+	 clear:both;
+    }	
+  #download {
+	left:0px;
+	margin:auto;
+	text-align:center;
   }
 }
 
@@ -275,6 +297,8 @@
   .center {
 	  width: 400px;
   }
+  
+  #download{margin-top:30px;}
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -560,10 +584,11 @@
     width: 470px;
   }
   .span4 {
-    width: 370px;
+    width: 320px;
+	padding-left:0px;
   }
   .span3 {
-    width: 360px;
+    width: 400px;
   }
   .span2 {
     width: 170px;
@@ -767,6 +792,10 @@
   .btn-group {
 	  padding-top: 60px;
   }
+  #download {
+	position:relative;
+  	top:20px;
+  }
 }
 
 @media (max-width: 979px) {
@@ -900,6 +929,7 @@
 	  margin-right: auto;
 	  width:100%;
 }
+
 }
 
 @media (min-width: 980px) {
@@ -907,4 +937,9 @@
     height: auto !important;
     overflow: visible !important;
   }
+  #download {
+	left:0px;
+  	margin:30px 0px 0px 0px;
+  }
+  
 }
