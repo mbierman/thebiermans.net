@@ -1,0 +1,10 @@
+BEGIN:VCARD
+N:Bierman;Michael;;Mr.;
+ADR;INTL;PARCEL;WORK:;;200 S Matilda Avenue;Sunnyvale;California;95054;USA
+ADR;DOM;PARCEL;HOME:;;;Santa Clara;California;95054;USA
+EMAIL;INTERNET:resume@thebiermans.net
+ORG:Nokia
+TEL;CELL:408-692-5229
+TITLE:Lead Product Manager, Web Tools 
+URL:http://thebiermans.net
+END:VCARD

@@ -1,0 +1,110 @@
+
+Michael Bierman
+santa clara, california	?	www.thebiermans.net	?	resume (at) thebiermans.net	?	408 692 5229
+
+Profile
+More than 15 years of product management and design experience of mobile and web products, platforms, and 
+APIs, with a focus on eCommerce, developer and consumer applications. Ability to identify new product 
+opportunities, reinvigorate and grow product lines, set long-term strategy consistent with brand promise, and 
+champion a product internally and externally. Strong technical skills combined with business acumen applied to 
+identify the problems to be solved and work with all the constituents to plan and prioritize.
+Professional Highlights
+Product Management
+*	Managed web developer products for Nokia covering 85% of the addressable developer market. Created 
+first four generations of Nokia Web SDK with a team spread over three continents. These products were 
+essential components of Nokia's industry-leading mobile developer offerings.
+*	Created eBay Blogs to enhance eBay’s renowned community by driving significant natural search traffic 
+through user-generated, persistent, rich content. Buyers and sellers used eBay Blogs to enhance their 
+credibility, trustworthiness, and reputation while eBay enjoyed increased time on site and transaction 
+volumes.
+*	Redesigned eBay’s Product Description Pages to drive a $1.8M annual increase in transaction activity 
+and significant increases in page views via natural search.
+*	Managed all phases of the product life cycle on time and within budget for three consecutive releases of 
+Adobe SVG Viewer, including market (MRD) and product requirement (PRD) documents and product 
+integration with Adobe’s authoring tools and servers including Illustrator, InDesign, GoLive and Graphics 
+Server.
+*	Developed a licensing and distribution strategy for Adobe SVG Viewer, including third-party distribution 
+with partners such as RealNetworks, establishing more than 166 million seats (38% market penetration) 
+installed over approximately 14 months.
+*	Turned 300 support contracts with non-standard terms worth more than $225M into three standard 
+contracts to ensure Sun could meet the contractual obligations to its Java source licensees. Created 
+royalty and support revenue forecasts.
+*	Led a cross-functional team to improve the out-of-box experience by simplifying the product installation, 
+increasing customer satisfaction and converting more evaluations into purchases, and saving Microtec 
+more than $250,000 annually.
+*	Created the prototype and requirements for Microtec’s first on-line documentation system, which 
+increased usability and reduced the cost of documentation by 23%.
+*	Increased Microtec’s support renewal revenue by 15% in one year.
+
+
+Employment History
+Comcast Principal Product Manager, Personal Media	2014–Present
+Leading initiatives for casting photos, videos, and live video streams on TV from XFINITY mobile apps. Created 
+new ways of acquiring and retaining users of our X1 set-top apps through personalization, improved user flows, 
+and making an amazing experience for sharing media in a 10' experience.
+WalmartLabs Principal Product Manager, Mobile Services	2012–2014
+Walmart does eCommerce at incredible scale. Mobile Services enabled a dozen mobile applications across four 
+platforms (Android, iPhone, iPad, and mWeb) and three properties (ASDA, Sam's Club, and Walmart). As the 
+Product Owner for Mobile Services, I collected requirements for new APIs to orchestrate internal and 3rd party 
+APIs which enable end-to-end mCommerce, including in-store and multi-channel features, which optimize for 
+mobile clients by reducing number of calls and payload sizes, reducing client resources (battery, CPU, bandwidth, 
+etc.), while keeping as much business logic out of the client as possible. Projects include a Pharmacy make over, 
+Checkout, payment and shipping enhancements, and holiday promotions. My team also has responsibility for 
+Security, Operational Analytics, and Production Support.
+Apigee Principal Product Manager, Developer Tools	2011–2012
+Lead cross-product initiatives like Single Sign-On to consolidate eight unique user stores and experiences. Created 
+developer tools such as Console which enable a developer to make an API request in minutes by providing an 
+overview of all the API‘s methods, parameters, default and required values, contextual help, and authentication. 
+Consoles include a social component: allowing developers to share their API requests and responses with other 
+developers and support engineers via Facebook, twitter or in blogs. Applied agile principals to achieve monthly 
+release cycles that allowed for rapid innovation and predictability.
+Nokia Lead Product Manager, Web Tools	2008–2011
+Managed the WRT developer toolchain from a blank slate. The Nokia Web SDK, Web SDK Simulator; Nokia 
+Designer, a rapid prototyping tool; Nokia Web Runtime plug-in for Eclipse, WRT extension for Adobe 
+Dreamweaver and WRT plugin for Microsoft Visual Studio. These enabled the full life cycle of mobile application 
+development, from concept and ideation to publishing. Challenges included aligning diverse and sometimes 
+conflicting requirements and roadmaps for the many devices and services in Nokia’s portfolio. An innovator in 
+mobile web, Nokia shipped a WebKit-based browser on mobile devices two years before Apple.
+Product Management Consultant	2007–2008
+Advised Silicon Valley startups including Product definition, requirements, and roadmaps. Recommended changes 
+to improve usability, accessibility, and development processes for Assist Guide Information Services and others.
+Habeas Senior Product Manager	2006–2007
+Conceived and launched new products based on Adobe Flex, a Yahoo! Map mashup (patent pending). Developed 
+a platform for a new line of business focused on advertising.
+eBay Senior Product Manager, Internet Marketing & Community	2005–2006
+Launched new products, such as eBay Blogs and redesigned the Product Description pages, to enhance the eBay 
+Community and maximize natural search traffic and decrease eBay’s paid search expenditure.
+Product Management Consultant	2001–2005
+Consulted for a number of companies on a variety of product management and marketing areas including: 
+Adobe, BEA, enScaler, Ideaburst, Open Design Alliance, and Software Mechanics.
+Adobe Systems Senior Product Manager and Evangelist	1999–2001
+Managed the Adobe SVG Viewer, a browser plug-in similar to Flash. As SVG Evangelist, influenced the Creative 
+Suite-SVG authoring features and created a vibrant developer community. Represented Adobe at conferences 
+such as Seybold, Builder.com, and FlashForward. Managed a staff to create and evolve a developer network 
+including demos, whitepapers, and authoring guides to educate and inspire SVG adoption.
+Scalable Vector Graphics (SVG) is the W3C’s XML-based language for scriptable 2D vector graphics that enables 
+data-driven graphics for web, mobile and print, and is now supported in all popular web browsers.
+Additional Work Experience
+Sun Microsystems Product Manager, Java Source Engineering	1997–1999
+Microtec, A Mentor Graphics Company Project Manager, Marketing	1995–1997
+Globetrotter Software, A Macrovision Corp Training/Technical Support	1994–1995
+Sun Microsystems, SunPro Developer Tools	1990–1994
+
+
+Education, Certifications, Publications & Awards
+*	Certified ScrumMaster, cPrime 2011
+*	Dean’s List for Computer Forensics coursework/ Computer Science Program, College of San Mateo 2004
+*	U.S. Patent Pending 60/950,102 “Method and Apparatus For Visualizing and Optimizing Message 
+Transfer in Reputation Networks,” Bierman et al., July 16, 2007
+*	Cagle, Kurt, foreword by Bierman, Michael; SVG Programming. Berkeley: Apress, July 2002 Bachelor of 
+Arts; California State University, Northridge
+*	Mediation Certification, California Community Dispute Resolution
+*	Award for Excellence, Society for Technical Communication Style Guide 1994
+*	Adobe Customer Briefing Center’s Quarterly Top Presenter and Speaker of the Year award 2000
+Contact
+ 
+ 
+Web Site
+Call Michael
+
+Michael Bierman 	michael (at) thebiermans.net	408 692 5229	thebiermans.net	3
