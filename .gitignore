@@ -6,3 +6,5 @@ jsnew
 video
 wks
 .git-ftp-ignore
+*.cache
+.firebase/hosting.cHVi.cache
