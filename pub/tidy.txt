@@ -1,0 +1,34 @@
+// sample config file for HTML tidy
+indent: auto
+indent-spaces: 2
+wrap: 72
+markup: yes
+output-xml: no
+input-xml: no
+show-warnings: yes
+numeric-entities: yes
+quote-marks: yes
+quote-nbsp: yes
+quote-ampersand: no
+break-before-br: no
+uppercase-tags: no
+uppercase-attributes: no
+new-inline-tags: cfif, cfelse, math, mroot,
+  mrow, mi, mn, mo, msqrt, mfrac, msubsup, munderover,
+  munder, mover, mmultiscripts, msup, msub, mtext,
+  mprescripts, mtable, mtr, mtd, mth
+new-blocklevel-tags: cfoutput, cfquery
+new-empty-tags: cfelse
+accessibility-check: 0
+clean: no
+drop-empty-paras: no
+indent: yes
+fix-backslash: yes
+indent-attributes: yes
+warn-proprietary-attributes: no
+sort-attributes: alpha
+show-warnings: yes
+fix-bad-comments: yes
+input-encoding: utf8
+output-encoding: utf8
+char-encoding: utf8

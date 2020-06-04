@@ -1,0 +1,31 @@
+[debug] [2019-09-12T02:11:59.463Z] ----------------------------------------------------------------------
+[debug] [2019-09-12T02:11:59.468Z] Command:       /usr/local/bin/node /Users/bierman/.npm-global/bin/firebase deploy
+[debug] [2019-09-12T02:11:59.468Z] CLI Version:   7.3.1
+[debug] [2019-09-12T02:11:59.469Z] Platform:      darwin
+[debug] [2019-09-12T02:11:59.469Z] Node Version:  v10.16.3
+[debug] [2019-09-12T02:11:59.477Z] Time:          Wed Sep 11 2019 19:11:59 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-09-12T02:11:59.477Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-12T02:11:59.494Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-12T02:11:59.495Z] > authorizing via signed-in user
+[debug] [2019-09-12T02:11:59.495Z] [iam] checking project net2-cbc9a for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-09-12T02:11:59.497Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/net2-cbc9a:testIamPermissions  
+
+[debug] [2019-09-12T02:12:00.022Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-12T02:12:00.025Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/net2-cbc9a  
+ 
+[debug] [2019-09-12T02:12:00.643Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'net2-cbc9a'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-09-12T02:12:00.648Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/net2-cbc9a/versions  
+
+[debug] [2019-09-12T02:12:01.554Z] <<< HTTP RESPONSE 200
+[info] i  hosting[net2-cbc9a]: beginning deploy...
+[info] i  hosting[net2-cbc9a]: found 77 files in pub
+[debug] [2019-09-12T02:12:01.581Z] [hosting] hash cache [cHVi] load error: lines is not defined
+[debug] [2019-09-12T02:12:01.671Z] [hosting] hash cache [cHVi] stored for 77 files
+[debug] [2019-09-12T02:12:01.672Z] [hosting][hash queue][FINAL]
+[debug] [2019-09-12T02:12:01.672Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/net2-cbc9a/versions/ff832fefe8d1d4a0:populateFiles  
+ <request body omitted>
